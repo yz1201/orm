@@ -94,6 +94,11 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="yz1201" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MavenImportPreferences">
@@ -392,7 +397,7 @@
       <option name="presentableId" value="Default" />
       <updated>1583730487585</updated>
       <workItem from="1583730490195" duration="12553000" />
-      <workItem from="1583762255302" duration="9022000" />
+      <workItem from="1583762255302" duration="9311000" />
     </task>
     <servers />
   </component>
@@ -409,6 +414,11 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="orm -st ssm" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st ssm" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="552" y="178" key="#Inspections" timestamp="1583734712976">
@@ -427,6 +437,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583775211740">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583775211740" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1583749560897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
