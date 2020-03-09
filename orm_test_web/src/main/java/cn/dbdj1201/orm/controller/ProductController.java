@@ -25,7 +25,8 @@ public class ProductController {
     public String testLink(Model model) {
         productService.findAll().forEach(System.out::println);
         List<Product> products = productService.findAll();
+        System.out.println("controller-->" + products);
         model.addAttribute("products", products);
-        return "success";
+        return "product-list";
     }
 }

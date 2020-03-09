@@ -21,8 +21,13 @@
         <thead class="thead-dark">
         <tr>
             <th>ID</th>
-            <th>NAME</th>
-            <th>PRICE</th>
+            <th>ProductNum</th>
+            <th>ProductName</th>
+            <th>CityName</th>
+            <th>DepartureTime</th>
+            <th>ProductPrice</th>
+            <th>ProductDesc</th>
+            <th>ProductStatus</th>
         </tr>
         </thead>
 
@@ -30,8 +35,13 @@
         <c:forEach items="${products}" var="pro" varStatus="s">
             <tr>
                 <td>${pro.id}</td>
-                <td>${pro.name}</td>
-                <td>${pro.price}</td>
+                <td>${pro.productNum}</td>
+                <td>${pro.productName}</td>
+                <td>${pro.cityName}</td>
+                <td>${pro.departureTime}</td>
+                <td>${pro.productPrice}</td>
+                <td>${pro.productDesc}</td>
+                <td>${pro.productStatus}</td>
             </tr>
         </c:forEach>
         </tbody>

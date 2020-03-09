@@ -16,7 +16,9 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="orm_test_domain" />
         <module name="orm_test_dao" />
+        <module name="orm_test_utils" />
         <module name="orm_test_service" />
         <module name="orm_test_web" />
       </profile>

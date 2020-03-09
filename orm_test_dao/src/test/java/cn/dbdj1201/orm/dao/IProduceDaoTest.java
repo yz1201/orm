@@ -26,8 +26,7 @@ public class IProduceDaoTest {
     @Test
     public void save() {
         Product pro = new Product();
-        pro.setName("test7");
-        pro.setPrice(250);
+
         productDao.save(pro);
     }
 }

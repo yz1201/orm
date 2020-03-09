@@ -12,6 +12,8 @@
         <module>orm_test_web</module>
         <module>orm_test_service</module>
         <module>orm_test_dao</module>
+        <module>orm_test_domain</module>
+        <module>orm_test_utils</module>
     </modules>
 
     <!-- 统一管理jar包版本 -->
@@ -258,6 +260,14 @@
             <artifactId>fastjson</artifactId>
             <version>1.2.66</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/joda-time/joda-time -->
+        <dependency>
+            <groupId>joda-time</groupId>
+            <artifactId>joda-time</artifactId>
+            <version>2.10.5</version>
+        </dependency>
+
 
     </dependencies>
     <!-- 添加tomcat7插件 -->
