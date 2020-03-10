@@ -494,7 +494,7 @@
       <updated>1583730487585</updated>
       <workItem from="1583730490195" duration="12553000" />
       <workItem from="1583762255302" duration="9476000" />
-      <workItem from="1583809496059" duration="29728000" />
+      <workItem from="1583809496059" duration="30072000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -596,7 +596,8 @@
     <MESSAGE value="orm -st ssm" />
     <MESSAGE value="orm -st product list add, orders" />
     <MESSAGE value="orm -st domain, orders list" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm -st domain, orders list" />
+    <MESSAGE value="orm -st orders details" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st orders details" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -616,10 +617,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583861675676">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583861836201">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583861675676" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583861836201" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
