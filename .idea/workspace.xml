@@ -2,115 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IMemberDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/ITravellerDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IOrdersDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Character.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IOrdersService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/OrdersServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/OrdersServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/OrdersController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/orders-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/orders-page-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-dataform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-datalist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-layout.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/admin-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-404.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-500.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-blank.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-dataform.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-datalist.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-index.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-invoice-print.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-invoice.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-login.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-profile.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-register.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-charts-chartjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-charts-flot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-charts-inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-charts-morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-modals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-sliders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-elements-widgets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-form-advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-form-editors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-form-general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-order-cancel-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-order-manage-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-order-manage-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-system-setting-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-tables-data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-tables-simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-travellog-manage-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-travellog-manage-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-travellog-review-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-travellog-review-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-travellog-setting-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/charts-chartjs.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/charts-flot.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/charts-inline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/charts-morris.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/documentation.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-buttons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-icons.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-modals.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-sliders.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-timeline.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/elements-widgets.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/form-advanced.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/form-editors.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/form-general.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/order-cancel-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/order-manage-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/order-manage-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/system-setting-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/tables-data.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/tables-simple.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/travellog-manage-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/travellog-manage-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/travellog-review-edit.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/travellog-review-list.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/travellog-setting-edit.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Permission.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IOrdersDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IOrdersDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IProductDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/classes/cn/dbdj1201/orm/dao/IProductDao.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/classes/cn/dbdj1201/orm/dao/IProductDao.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Orders.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Orders.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Product.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Traveller.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Traveller.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/IProductServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/IProductServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/classes/cn/dbdj1201/orm/service/impl/IProductServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/classes/cn/dbdj1201/orm/service/impl/IProductServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/orders-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/orders-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Character.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Role.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -231,8 +128,8 @@
       <command value="mvn install" />
       <command value="mvn tomcat7:deploy" />
       <command value="mvn clean package -Dmaven.test.skip=true" />
-      <command value="mvn install -Dmaven.test.skip=true" />
       <command value="mvn tomcat7:redeploy -Dmaven.test.skip=true" />
+      <command value="mvn install -Dmaven.test.skip=true" />
     </option>
   </component>
   <component name="RunManager" selected="Maven.redeploy">
@@ -494,7 +391,7 @@
       <updated>1583730487585</updated>
       <workItem from="1583730490195" duration="12553000" />
       <workItem from="1583762255302" duration="9476000" />
-      <workItem from="1583809496059" duration="30072000" />
+      <workItem from="1583809496059" duration="32106000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -573,7 +470,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583839156605</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="orm -st orders details">
+      <created>1583861853089</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1583861853089</updated>
+    </task>
+    <task id="LOCAL-00013" summary="orm -st orders details">
+      <created>1583862013279</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1583862013279</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -609,18 +520,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583854401804" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583859237835">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583863817444">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583859237835" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583863817444" />
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583771221459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583861836201">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583862011301">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583861836201" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583862011301" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -633,22 +544,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040@0.0.1920.1040" timestamp="1583748465422" />
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1583861675830">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom" timestamp="1583863846710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583861675830" />
-    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1583861675830">
+    <state width="1877" height="442" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583863846710" />
+    <state width="1877" height="442" key="GridCell.Tab.0.center" timestamp="1583863846710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583861675830" />
-    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1583861675830">
+    <state width="1877" height="442" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583863846710" />
+    <state width="1877" height="442" key="GridCell.Tab.0.left" timestamp="1583863846710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583861675830" />
-    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1583861675830">
+    <state width="1877" height="442" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583863846710" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right" timestamp="1583863846710">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583861675830" />
+    <state width="1877" height="442" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583863846710" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583749562877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -657,10 +568,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="438" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583765047062" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583839181605">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583862022257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583839181605" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583862022257" />
     <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583860593537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -673,10 +584,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583771315196" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583861180388">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583863846725">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583861180388" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583863846725" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583857032869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
