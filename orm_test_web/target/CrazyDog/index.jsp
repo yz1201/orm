@@ -1,4 +1,4 @@
-<%@ page contentType="text/html; charset=UTF-8" language="java" isELIgnored="false" %>
+<%@ page contentType="text/html; charset=UTF-8" isELIgnored="false" %>
 <html>
 <head>
     <title>welcome page</title>
@@ -7,9 +7,10 @@
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<body class="bg-warning">
-<div class="container-fluid"></div>
-<h2>Hello World!</h2>
-<a href="product/link">click click</a>
+<body class="container-fluid bg-warning">
+<%--<div class="container-fluid"></div>--%>
+<%--<h2>Hello World!</h2>--%>
+<%--<a href="product/list">click click</a>--%>
+<a href="WEB-INF/pages/main.jsp">Welcome</a>
 </body>
 </html>

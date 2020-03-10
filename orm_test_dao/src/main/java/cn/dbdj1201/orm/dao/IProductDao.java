@@ -1,6 +1,7 @@
 package cn.dbdj1201.orm.dao;
 
 import cn.dbdj1201.orm.domain.Product;
+import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.Update;
 import org.springframework.stereotype.Repository;
@@ -17,7 +18,9 @@ public interface IProductDao {
     @Select("select * from product")
     List<Product> findAll();
 
-    @Update("insert into product (name, price) values (#{name}, #{price})")
+    @Insert("insert into product(productNum,productName,cityName,departureTime,productPrice," +
+            "productDesc,productStatus) values(#{productNum},#{productName},#{cityName}," +
+            "#{departureTime},#{productPrice},#{productDesc},#{productStatus})")
     void save(Product product);
 
 }

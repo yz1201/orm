@@ -2,65 +2,44 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/resources/jdbc.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_domain/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Product.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_utils/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_utils/src/main/java/cn/dbdj1201/orm/utils/DateUtils.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/header.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/css/bootstrap-theme.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/css/bootstrap.min.css.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/bootstrap.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/jquery-3.4.1.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/jquery-3.4.1.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/popper.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/js/popper.min.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/main.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/domain/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/resources/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/resources/spring/applicationContext-dao.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IProductDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IProductDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IProduceDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IProduceDaoTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/classes/cn/dbdj1201/orm/domain/Product.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/classes/spring/applicationContext-dao.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/classes/spring/applicationContext-dao.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/TEST-cn.dbdj1201.orm.dao.IProduceDaoTest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/TEST-cn.dbdj1201.orm.dao.IProduceDaoTest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/cn.dbdj1201.orm.dao.IProduceDaoTest.txt" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/cn.dbdj1201.orm.dao.IProduceDaoTest.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/TEST-cn.dbdj1201.orm.dao.IProduceDaoTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/surefire-reports/cn.dbdj1201.orm.dao.IProduceDaoTest.txt" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_dao/target/test-classes/cn/dbdj1201/orm/dao/IProduceDaoTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/test-classes/cn/dbdj1201/orm/dao/IProduceDaoTest.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Product.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/surefire-reports/TEST-cn.dbdj1201.orm.service.impl.IProductServiceImplTest.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/surefire-reports/cn.dbdj1201.orm.service.impl.IProductServiceImplTest.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/test-classes/cn/dbdj1201/orm/service/impl/IProductServiceImplTest.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/resources/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-mvc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/itemDetail.jsp" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/springmvc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/pages/success.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/pages/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/pages/itemDetail.jsp" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/index.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/index.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/springmvc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/classes/springmvc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/springmvc.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +122,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm_test_web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -157,33 +136,34 @@
       <recent name="cn.dbdj1201.orm.service.impl" />
       <recent name="cn.dbdj.orm.dao" />
     </key>
-    <key name="CopyClassDialog.RECENTS_KEY">
-      <recent name="cn.dbdj1201.orm.domain" />
-    </key>
-    <key name="CopyFile.RECENT_KEYS">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\css" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\WEB-INF\pages" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\images" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="cn.dbdj1201.orm.domain" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\WEB-INF\pages" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\img" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\css" />
     </key>
   </component>
   <component name="RunAnythingCache">
     <option name="myCommands">
       <command value="mvn install" />
       <command value="mvn tomcat7:deploy" />
-      <command value="mvn install -Dmaven.test.skip=true" />
       <command value="mvn tomcat7:redeploy -Dmaven.test.skip=true" />
+      <command value="mvn clean package -Dmaven.test.skip=true" />
+      <command value="mvn install -Dmaven.test.skip=true" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.IProduceDaoTest.findAll">
+  <component name="RunManager" selected="Maven.deploy">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -283,7 +263,7 @@
             <option name="goals">
               <list>
                 <option value="tomcat7:deploy" />
-                <option value="-DskipTests" />
+                <option value="-Dmaven.test.skip=true" />
               </list>
             </option>
             <option name="pomFileName" />
@@ -380,9 +360,9 @@
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.IProduceDaoTest.save" />
         <item itemvalue="JUnit.IProduceDaoTest.findAll" />
         <item itemvalue="JUnit.IProductServiceImplTest.findAll" />
-        <item itemvalue="JUnit.IProduceDaoTest.save" />
       </list>
     </recent_temporary>
   </component>
@@ -397,8 +377,24 @@
       <option name="presentableId" value="Default" />
       <updated>1583730487585</updated>
       <workItem from="1583730490195" duration="12553000" />
-      <workItem from="1583762255302" duration="9311000" />
+      <workItem from="1583762255302" duration="9476000" />
+      <workItem from="1583809496059" duration="4214000" />
     </task>
+    <task id="LOCAL-00001" summary="orm -st ssm">
+      <created>1583775231279</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1583775231279</updated>
+    </task>
+    <task id="LOCAL-00002" summary="orm -st ssm">
+      <created>1583775254269</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1583775254269</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -409,7 +405,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
@@ -425,10 +423,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="552" y="178" key="#Inspections/0.0.1920.1040@0.0.1920.1040" timestamp="1583734712976" />
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583767551825">
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1583814164717">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583767551825" />
+    <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583814164717" />
     <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583774304968">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -437,10 +435,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583775211740">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583775250984">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583775211740" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583775250984" />
     <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1583749560897">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -449,22 +447,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040@0.0.1920.1040" timestamp="1583748465422" />
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom" timestamp="1583774931432">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom" timestamp="1583814166936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583774931432" />
-    <state width="1877" height="382" key="GridCell.Tab.0.center" timestamp="1583774931432">
+    <state width="1877" height="253" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583814166936" />
+    <state width="1877" height="253" key="GridCell.Tab.0.center" timestamp="1583814166936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583774931432" />
-    <state width="1877" height="382" key="GridCell.Tab.0.left" timestamp="1583774931432">
+    <state width="1877" height="253" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583814166936" />
+    <state width="1877" height="253" key="GridCell.Tab.0.left" timestamp="1583814166936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583774931432" />
-    <state width="1877" height="382" key="GridCell.Tab.0.right" timestamp="1583774931432">
+    <state width="1877" height="253" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583814166936" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right" timestamp="1583814166936">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="382" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583774931432" />
+    <state width="1877" height="253" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583814166936" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583749562877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -473,6 +471,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="438" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583765047062" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583775260221">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583775260221" />
     <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583735119116">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -481,13 +483,13 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583771315196" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583774931463">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583813713257">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583774931463" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583733720125">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583813713257" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583811966782">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583733720125" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583811966782" />
   </component>
 </project>

@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-         pageEncoding="UTF-8" %>
+         pageEncoding="UTF-8" isELIgnored="false" %>
 
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
@@ -7,7 +7,7 @@
         <!-- Sidebar user panel -->
         <div class="user-panel">
             <div class="pull-left image">
-                <img src="${pageContext.request.contextPath}/img/user2-160x160.jpg"
+                <img src="${pageContext.request.contextPath}/img/if_brother_3231124.png"
                      class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
@@ -58,7 +58,7 @@
                 <ul class="treeview-menu">
 
                     <li id="system-setting5"><a
-                            href="${pageContext.request.contextPath}/product/findAll.do">
+                            href="${pageContext.request.contextPath}/product/list">
                         <i class="fa fa-circle-o"></i> 产品管理
                     </a></li>
                     <li id="system-setting6"><a

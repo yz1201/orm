@@ -7,6 +7,8 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.context.ContextConfiguration;
 import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 
+import java.util.Date;
+
 /**
  * @author tyz1201
  * @datetime 2020-03-09 13:53
@@ -26,7 +28,13 @@ public class IProduceDaoTest {
     @Test
     public void save() {
         Product pro = new Product();
-
+        pro.setCityName("he lan");
+        pro.setDepartureTime(new Date());
+        pro.setProductDesc("chou sha chou");
+        pro.setProductName("bang bang tang");
+        pro.setProductStatus(0);
+        pro.setProductPrice(258.82);
+        pro.setProductNum("pxd-0258");
         productDao.save(pro);
     }
 }

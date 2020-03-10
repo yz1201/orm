@@ -116,21 +116,6 @@ public class Product implements Serializable {
         this.productStatusStr = productStatusStr;
     }
 
-//    @Override
-//    public String toString() {
-//        return "Product{" +
-//                "id=" + id +
-//                ", productNum='" + productNum + '\'' +
-//                ", productName='" + productName + '\'' +
-//                ", cityName='" + cityName + '\'' +
-//                ", departureTimeStr=" + departureTimeStr +
-//                ", productPrice=" + productPrice +
-//                ", productDesc='" + productDesc + '\'' +
-//                ", productStatusStr=" + productStatusStr +
-//                '}';
-//    }
-
-
     @Override
     public String toString() {
         return "Product{" +
