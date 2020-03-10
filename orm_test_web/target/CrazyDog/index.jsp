@@ -7,10 +7,14 @@
     <script src="https://cdn.staticfile.org/popper.js/1.15.0/umd/popper.min.js"></script>
     <script src="https://cdn.staticfile.org/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
 </head>
-<body class="container-fluid bg-warning">
+<body class="container-fluid bg-success">
 <%--<div class="container-fluid"></div>--%>
 <%--<h2>Hello World!</h2>--%>
 <%--<a href="product/list">click click</a>--%>
-<a href="WEB-INF/pages/main.jsp">Welcome</a>
+<div class="container-fluid">
+    <%--    <a href="">Welcome</a>--%>
+    <jsp:forward page="WEB-INF/pages/main.jsp"/>
+</div>
+
 </body>
 </html>

@@ -30,6 +30,11 @@ public class ProductController {
         return "product-list";
     }
 
+    @RequestMapping("/productAdd")
+    public String addProduct() {
+        return "product-add";
+    }
+
     @RequestMapping("saveProduct")
     public String saveProduct(Product product) {
         productService.save(product);

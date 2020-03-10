@@ -6,10 +6,12 @@ import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
+import java.util.List;
 
 /**
  * @author tyz1201
  * @datetime 2020-03-09 13:32
+ * 旅行产品实体类
  **/
 public class Product implements Serializable {
     private Integer id;
@@ -24,6 +26,7 @@ public class Product implements Serializable {
     private String productDesc;
     private Integer productStatus;
     private String productStatusStr;
+    private List<Orders> orders;
 
     public Integer getId() {
         return id;
@@ -114,6 +117,14 @@ public class Product implements Serializable {
 
     public void setProductStatusStr(String productStatusStr) {
         this.productStatusStr = productStatusStr;
+    }
+
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
     }
 
     @Override
