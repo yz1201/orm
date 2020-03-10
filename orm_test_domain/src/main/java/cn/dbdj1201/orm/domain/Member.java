@@ -9,12 +9,12 @@ import java.util.List;
  * 会员实体类
  **/
 public class Member implements Serializable {
-    private Integer id;
-    private String name;
-    private String nickName;
-    private String phoneNum;
-    private String email;
-    private List<Orders> orders;
+    private Integer id;                     //
+    private String name;                    //姓名
+    private String nickName;                //昵称
+    private String phoneNum;                //电话号码
+    private String email;                   //邮箱
+    private List<Orders> orders;            //o2n 一个会员对应多个订单
 
     public Integer getId() {
         return id;
@@ -62,5 +62,16 @@ public class Member implements Serializable {
 
     public void setOrders(List<Orders> orders) {
         this.orders = orders;
+    }
+
+    @Override
+    public String toString() {
+        return "Member{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", nickName='" + nickName + '\'' +
+                ", phoneNum='" + phoneNum + '\'' +
+                ", email='" + email + '\'' +
+                '}';
     }
 }

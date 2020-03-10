@@ -69,7 +69,6 @@ public class Product implements Serializable {
     }
 
     public String getDepartureTimeStr() {
-        System.out.println("come in date to string");
         if (departureTime != null)
             departureTimeStr = DateUtils.date2String(departureTime,
                     "yyyy-MM-dd HH:mm:ss");

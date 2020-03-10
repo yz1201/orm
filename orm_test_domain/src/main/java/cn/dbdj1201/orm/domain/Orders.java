@@ -1,6 +1,8 @@
 package cn.dbdj1201.orm.domain;
 
 import cn.dbdj1201.orm.utils.DateUtils;
+import com.fasterxml.jackson.annotation.JsonFormat;
+import org.springframework.format.annotation.DateTimeFormat;
 
 import java.io.Serializable;
 import java.util.Date;
@@ -14,6 +16,8 @@ import java.util.List;
 public class Orders implements Serializable {
     private Integer id;                             //主键
     private String orderNum;                        //订单编号 不为空 唯一
+    @DateTimeFormat(pattern = "yyyy-MM-dd HH:mm")
+    @JsonFormat(pattern = "yyyy-MM-dd HH:mm:ss", timezone = "GMT+8")
     private Date orderTime;                         // 下单时间
     private String orderTimeStr;
     private Integer peopleCount;                    //出行人数
@@ -145,5 +149,22 @@ public class Orders implements Serializable {
 
     public void setTravellers(List<Traveller> travellers) {
         this.travellers = travellers;
+    }
+
+    @Override
+    public String toString() {
+        return "Orders{" +
+                "id=" + id +
+                ", orderNum='" + orderNum + '\'' +
+                ", orderTime=" + orderTime +
+                ", orderTimeStr='" + getOrderTimeStr() + '\'' +
+                ", peopleCount=" + peopleCount +
+                ", orderDesc='" + orderDesc + '\'' +
+                ", payType=" + payType +
+                ", payTypeStr='" + getPayTypeStr() + '\'' +
+                ", orderStatus=" + orderStatus +
+                ", orderStatusStr='" + getOrderStatusStr() + '\'' +
+                ", product=" + product +
+                '}';
     }
 }

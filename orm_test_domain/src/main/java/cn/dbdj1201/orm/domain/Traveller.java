@@ -16,7 +16,7 @@ public class Traveller implements Serializable {
     private String credentialsTypeStr;
     private String credentialsNum;          //证件号码
     private Integer travellerType;          //旅客类型(人群) 0 成人 1 儿童
-    private String travelTypeStr;
+    private String travellerTypeStr;
     private List<Orders> orders;             //n2n 订单信息。
 
     public Integer getId() {
@@ -89,15 +89,38 @@ public class Traveller implements Serializable {
         this.credentialsTypeStr = credentialsTypeStr;
     }
 
-    public String getTravelTypeStr() {
+    public String getTravellerTypeStr() {
         if (travellerType == 0)
-            travelTypeStr = "成人";
+            travellerTypeStr = "成人";
         else
-            travelTypeStr = "儿童";
-        return travelTypeStr;
+            travellerTypeStr = "儿童";
+        return travellerTypeStr;
     }
 
-    public void setTravelTypeStr(String travelTypeStr) {
-        this.travelTypeStr = travelTypeStr;
+    public void setTravellerTypeStr(String travellerTypeStr) {
+        this.travellerTypeStr = travellerTypeStr;
+    }
+
+    public List<Orders> getOrders() {
+        return orders;
+    }
+
+    public void setOrders(List<Orders> orders) {
+        this.orders = orders;
+    }
+
+    @Override
+    public String toString() {
+        return "Traveller{" +
+                "id=" + id +
+                ", name='" + name + '\'' +
+                ", sex='" + sex + '\'' +
+                ", phoneNum='" + phoneNum + '\'' +
+                ", credentialsType=" + credentialsType +
+                ", credentialsTypeStr='" + getCredentialsTypeStr() + '\'' +
+                ", credentialsNum='" + credentialsNum + '\'' +
+                ", travellerType=" + travellerType +
+                ", travellerTypeStr='" + getTravellerTypeStr() + '\'' +
+                '}';
     }
 }

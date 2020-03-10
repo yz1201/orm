@@ -161,7 +161,6 @@
                             </thead>
                             <tbody>
 
-
                             <c:forEach items="${ordersList}" var="orders">
 
                                 <tr>
@@ -175,7 +174,7 @@
                                     <td class="text-center">
                                         <button type="button" class="btn bg-olive btn-xs">订单</button>
                                         <button type="button" class="btn bg-olive btn-xs"
-                                                onclick="location.href='${pageContext.request.contextPath}/orders/findById.do?id=${orders.id}'">
+                                                onclick="location.href='${pageContext.request.contextPath}/orders/details?id=${orders.id}'">
                                             详情
                                         </button>
                                         <button type="button" class="btn bg-olive btn-xs">编辑</button>
