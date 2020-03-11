@@ -46,15 +46,9 @@ public class OrdersController {
      *
      * @return
      */
-    @RequestMapping("/details")
-    public ModelAndView details(@RequestParam int id) {
-        ModelAndView mav = new ModelAndView();
-        Orders orders = iOrdersService.findById(id);
-        mav.addObject("orders", orders);
-        mav.setViewName("orders-details");
-        System.out.println("id=1-->" + orders.getTravellers());
-
-        return mav;
+    @RequestMapping("/add")
+    public String details(@RequestParam int id) {
+        return "user-add";
     }
 
 }

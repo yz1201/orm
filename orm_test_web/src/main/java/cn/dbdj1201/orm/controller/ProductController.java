@@ -29,7 +29,7 @@ public class ProductController {
         return "product-list";
     }
 
-    @RequestMapping("/productAdd")
+    @RequestMapping("/add")
     public String addProduct() {
         return "product-add";
     }

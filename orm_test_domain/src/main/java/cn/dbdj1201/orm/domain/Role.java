@@ -12,7 +12,7 @@ public class Role implements Serializable {
     private Integer id;             //主键
     private String roleName;        //角色名
     private String roleDesc;        // 角色描述
-    private List<User> users;
+    private List<UserInfo> users;
     private List<Permission> permissions;
 
     public Integer getId() {
@@ -39,11 +39,11 @@ public class Role implements Serializable {
         this.roleDesc = roleDesc;
     }
 
-    public List<User> getUsers() {
+    public List<UserInfo> getUsers() {
         return users;
     }
 
-    public void setUsers(List<User> users) {
+    public void setUsers(List<UserInfo> users) {
         this.users = users;
     }
 
@@ -61,7 +61,6 @@ public class Role implements Serializable {
                 "id=" + id +
                 ", roleName='" + roleName + '\'' +
                 ", roleDesc='" + roleDesc + '\'' +
-                ", users=" + users +
                 ", permissions=" + permissions +
                 '}';
     }

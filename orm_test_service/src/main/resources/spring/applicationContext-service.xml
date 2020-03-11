@@ -21,6 +21,8 @@
     <!--导入相关xml中的bean-->
     <import resource="classpath:spring/applicationContext-dao.xml"/>
 
+    <bean id="passwordEncoder" class="org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder"/>
+
     <!--aop面向切面编程，切面就是切入点和通知的组合-->
     <!--配置事务管理器-->
     <bean id="transactionManager" class="org.springframework.jdbc.datasource.DataSourceTransactionManager">

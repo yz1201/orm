@@ -1,11 +1,9 @@
 package cn.dbdj1201.orm.dao;
 
 import cn.dbdj1201.orm.domain.Role;
-import cn.dbdj1201.orm.domain.User;
-import org.apache.ibatis.annotations.Many;
-import org.apache.ibatis.annotations.Result;
-import org.apache.ibatis.annotations.Results;
-import org.apache.ibatis.annotations.Select;
+import cn.dbdj1201.orm.domain.UserInfo;
+import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
 
@@ -23,14 +21,28 @@ public interface IUserDao {
             @Result(property = "email", column = "email"),
             @Result(property = "phoneNum", column = "phoneNum"),
             @Result(property = "status", column = "status"),
-            @Result(property = "roles", column = "id", many = @Many(select = "cn.dbdj1201.dao.IRoleDao.findRoleByUid"))
+            @Result(property = "roles", column = "id", many = @Many(select = "cn.dbdj1201.orm.dao.IRoleDao.findRoleByUid",
+                    fetchType = FetchType.LAZY))
     })
-    User findUserById();
+    UserInfo findUserById(int id);
 
     @Select("select * from users")
-    List<User> findAll();
+    List<UserInfo> findAll();
 
-    User findByUsername(String username);
+    @Select("select * from users where username = #{username}")
+    @Results({
+            @Result(id = true, property = "id", column = "id"),
+            @Result(property = "username", column = "username"),
+            @Result(property = "password", column = "password"),
+            @Result(property = "email", column = "email"),
+            @Result(property = "phoneNum", column = "phoneNum"),
+            @Result(property = "status", column = "status"),
+            @Result(property = "roles", column = "id", many = @Many(select = "cn.dbdj1201.orm.dao.IRoleDao.findRoleByUid",
+                    fetchType = FetchType.LAZY))
+    })
+    UserInfo findByUsername(String username);
 
+    @Update("insert into users(email, username, password, phoneNum, status) values(#{email},#{username},#{password},#{phoneNum},#{status})")
+    void save(UserInfo userInfo);
 
 }

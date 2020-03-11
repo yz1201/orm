@@ -1,4 +1,7 @@
 F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\ITravellerDao.java
 F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IMemberDao.java
+F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IUserDao.java
+F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IRoleDao.java
+F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IPermissionDao.java
 F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IOrdersDao.java
 F:\maven_project\orm_test\orm_test_dao\src\main\java\cn\dbdj1201\orm\dao\IProductDao.java

@@ -1,7 +1,57 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="" />
+    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IPermissionDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IRoleDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IUserDaoTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-delete.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-list.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-role-details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-show.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/test/java/cn/dbdj1201/orm/controller/UserControllerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Role.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/UserInfo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/OrdersController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/header.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,8 +78,8 @@
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
         <option value="JUnit4 Test Class" />
-        <option value="Class" />
         <option value="Interface" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -83,7 +133,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit4" value="" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm_test_web/src/main/webapp" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -96,15 +146,16 @@
     <key name="CreateTestDialog.RecentsKey">
       <recent name="cn.dbdj1201.orm.service.impl" />
       <recent name="cn.dbdj1201.orm.dao" />
+      <recent name="cn.dbdj1201.orm.controller" />
       <recent name="cn.dbdj.orm.dao" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.orm.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\resources" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\img" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins" />
     </key>
@@ -143,7 +194,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IOrdersDaoTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IRoleDaoTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_dao" />
       <extension name="coverage">
         <pattern>
@@ -152,7 +203,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IOrdersDaoTest" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IRoleDaoTest" />
       <option name="METHOD_NAME" value="findAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -163,7 +214,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IProduceDaoTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IRoleDaoTest.findRoleByUid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_dao" />
       <extension name="coverage">
         <pattern>
@@ -172,8 +223,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IProduceDaoTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IRoleDaoTest" />
+      <option name="METHOD_NAME" value="findRoleByUid" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -183,16 +234,36 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IProduceDaoTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm_test_dao" />
+    <configuration name="UserServiceImplTest.loadUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orm_test_service" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.orm.dao.*" />
+          <option name="PATTERN" value="cn.dbdj1201.orm.service.impl.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IProduceDaoTest" />
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="loadUserByUsername" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="moduleWithDependencies" />
+      </option>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="orm_test_service" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="cn.dbdj1201.orm.service.impl.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
       <option name="METHOD_NAME" value="save" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -203,7 +274,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="OrdersServiceImplTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_service" />
       <extension name="coverage">
         <pattern>
@@ -212,28 +283,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.OrdersServiceImplTest" />
-      <option name="METHOD_NAME" value="findAll" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="moduleWithDependencies" />
-      </option>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="OrdersServiceImplTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="orm_test_service" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="cn.dbdj1201.orm.service.impl.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.OrdersServiceImplTest" />
-      <option name="METHOD_NAME" value="findById" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
+      <option name="METHOD_NAME" value="testFindAll" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -353,22 +404,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IProduceDaoTest.findAll" />
-      <item itemvalue="JUnit.IProduceDaoTest.save" />
-      <item itemvalue="JUnit.IOrdersDaoTest.findAll" />
-      <item itemvalue="JUnit.OrdersServiceImplTest.findAll" />
-      <item itemvalue="JUnit.OrdersServiceImplTest.findById" />
       <item itemvalue="Maven.redeploy" />
       <item itemvalue="Maven.deploy" />
       <item itemvalue="Maven.orm_test [clean,package]" />
+      <item itemvalue="JUnit.IRoleDaoTest.findAll" />
+      <item itemvalue="JUnit.UserServiceImplTest.save" />
+      <item itemvalue="JUnit.UserServiceImplTest.loadUserByUsername" />
+      <item itemvalue="JUnit.IRoleDaoTest.findRoleByUid" />
+      <item itemvalue="JUnit.UserServiceImplTest.testFindAll" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.OrdersServiceImplTest.findById" />
-        <item itemvalue="JUnit.OrdersServiceImplTest.findAll" />
-        <item itemvalue="JUnit.IOrdersDaoTest.findAll" />
-        <item itemvalue="JUnit.IProduceDaoTest.save" />
-        <item itemvalue="JUnit.IProduceDaoTest.findAll" />
+        <item itemvalue="JUnit.UserServiceImplTest.testFindAll" />
+        <item itemvalue="JUnit.IRoleDaoTest.findRoleByUid" />
+        <item itemvalue="JUnit.IRoleDaoTest.findAll" />
+        <item itemvalue="JUnit.UserServiceImplTest.save" />
+        <item itemvalue="JUnit.UserServiceImplTest.loadUserByUsername" />
       </list>
     </recent_temporary>
   </component>
@@ -385,7 +436,7 @@
       <workItem from="1583730490195" duration="12553000" />
       <workItem from="1583762255302" duration="9476000" />
       <workItem from="1583809496059" duration="32595000" />
-      <workItem from="1583893443308" duration="4686000" />
+      <workItem from="1583893443308" duration="24795000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -513,7 +564,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583899312313</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="orm -st users permission">
+      <created>1583899342966</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1583899342966</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -557,18 +615,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583854401804" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583897885157">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583917412029">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583897885157" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583917412029" />
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583771221459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583899308921">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583899341356">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583899308921" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583899341356" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -581,22 +639,38 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040@0.0.1920.1040" timestamp="1583748465422" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1583864419355">
+    <state width="1877" height="32" key="GridCell.Tab.0.bottom" timestamp="1583920944531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1583864419355">
+    <state width="1877" height="32" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583920944531" />
+    <state width="1877" height="32" key="GridCell.Tab.0.center" timestamp="1583920944531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1583864419355">
+    <state width="1877" height="32" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583920944531" />
+    <state width="1877" height="32" key="GridCell.Tab.0.left" timestamp="1583920944531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1583864419355">
+    <state width="1877" height="32" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583920944531" />
+    <state width="1877" height="32" key="GridCell.Tab.0.right" timestamp="1583920944531">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
+    <state width="1877" height="32" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583920944531" />
+    <state width="1877" height="539" key="GridCell.Tab.1.bottom" timestamp="1583920606284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.1.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583920606284" />
+    <state width="1877" height="539" key="GridCell.Tab.1.center" timestamp="1583920606283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.1.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583920606283" />
+    <state width="1877" height="539" key="GridCell.Tab.1.left" timestamp="1583920606283">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.1.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583920606283" />
+    <state width="1877" height="539" key="GridCell.Tab.1.right" timestamp="1583920606284">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1877" height="539" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583920606284" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583749562877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -605,14 +679,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="438" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583765047062" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583864393465">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583899346403">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583864393465" />
-    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583860593537">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583899346403" />
+    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583920553442">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583860593537" />
+    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583920553442" />
     <state x="744" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1583838905608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -621,10 +695,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583771315196" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583864217848">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583920616260">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583864217848" />
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583920616260" />
     <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583857032869">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -648,6 +722,22 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java</url>
+          <line>24</line>
+          <properties class="cn.dbdj1201.orm.service.impl.UserServiceImplTest" method="save">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java</url>
+          <line>51</line>
+          <properties class="cn.dbdj1201.orm.service.impl.UserServiceImplTest" method="testFindAll">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="9" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
