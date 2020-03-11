@@ -1,56 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IPermissionDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IRoleDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IUserDaoTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IRoleService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/RoleServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/RoleController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/UserController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-delete.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-add.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-list.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-role-details.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-show.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/test/java/cn/dbdj1201/orm/controller/UserControllerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="orm -st users permission 5th">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Role.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Role.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/UserInfo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/resources/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/resources/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/classes/spring/applicationContext-service.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/classes/spring/applicationContext-service.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/OrdersController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/OrdersController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/ProductController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/aside.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/header.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/header.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/product-list.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/classes/cn/dbdj1201/orm/controller/ProductController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -140,7 +92,10 @@
     <property name="node.js.path.for.package.tslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
-    <property name="settings.editor.selected.configurable" value="vcs.Subversion" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="vcs.Git" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -404,14 +359,14 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Maven.redeploy" />
-      <item itemvalue="Maven.deploy" />
-      <item itemvalue="Maven.orm_test [clean,package]" />
       <item itemvalue="JUnit.IRoleDaoTest.findAll" />
       <item itemvalue="JUnit.UserServiceImplTest.save" />
       <item itemvalue="JUnit.UserServiceImplTest.loadUserByUsername" />
       <item itemvalue="JUnit.IRoleDaoTest.findRoleByUid" />
       <item itemvalue="JUnit.UserServiceImplTest.testFindAll" />
+      <item itemvalue="Maven.redeploy" />
+      <item itemvalue="Maven.deploy" />
+      <item itemvalue="Maven.orm_test [clean,package]" />
     </list>
     <recent_temporary>
       <list>
@@ -599,7 +554,8 @@
     <MESSAGE value="orm -st permission second" />
     <MESSAGE value="orm -st permission third" />
     <MESSAGE value="orm -st users permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm -st users permission" />
+    <MESSAGE value="orm -st users permission 4th" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st users permission 4th" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -623,18 +579,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583899341356">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583921657638">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583899341356" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583921657638" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583839180230" />
-    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1583749560897">
+    <state x="740" y="261" key="FileChooserDialogImpl" timestamp="1583921507255">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583749560897" />
+    <state x="740" y="261" key="FileChooserDialogImpl/0.0.1920.1040@0.0.1920.1040" timestamp="1583921507255" />
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict" timestamp="1583748465422">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -671,10 +627,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="1877" height="539" key="GridCell.Tab.1.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583920606284" />
-    <state x="461" y="162" key="SettingsEditor" timestamp="1583749562877">
+    <state x="461" y="162" key="SettingsEditor" timestamp="1583921518419">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583749562877" />
+    <state x="461" y="162" key="SettingsEditor/0.0.1920.1040@0.0.1920.1040" timestamp="1583921518419" />
     <state x="840" y="438" key="VCS.EditChangelistDialog" timestamp="1583765047062">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
