@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/fail.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/success.jsp" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-index.html" afterDir="false" />
-    </list>
+    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -398,7 +385,7 @@
       <workItem from="1583730490195" duration="12553000" />
       <workItem from="1583762255302" duration="9476000" />
       <workItem from="1583809496059" duration="32595000" />
-      <workItem from="1583893443308" duration="4423000" />
+      <workItem from="1583893443308" duration="4686000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -519,7 +506,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583864385340</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="orm -st users permission">
+      <created>1583899312313</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1583899312313</updated>
+    </task>
+    <option name="localTasksCounter" value="19" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -546,7 +540,8 @@
     <MESSAGE value="orm -st permission" />
     <MESSAGE value="orm -st permission second" />
     <MESSAGE value="orm -st permission third" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm -st permission third" />
+    <MESSAGE value="orm -st users permission" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st users permission" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -570,10 +565,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583864383840">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583899308921">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583864383840" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583899308921" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
