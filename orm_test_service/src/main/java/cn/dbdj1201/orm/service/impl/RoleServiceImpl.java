@@ -28,8 +28,8 @@ public class RoleServiceImpl implements IRoleService {
     }
 
     @Override
-    public Role findById(int id) {
-        return roleDao.findById(id);
+    public Role findByRoleId(int roleId) {
+        return roleDao.findByRoleId(roleId);
     }
 
     @Override

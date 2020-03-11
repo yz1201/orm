@@ -57,6 +57,13 @@ public class UserController {
         return "redirect:/user/list";
     }
 
+    @RequestMapping("/addRole")
+    public String addRole(@RequestParam int id) {
+
+
+        return "redirect:/user/details";
+    }
+
     @RequestMapping("/add")
     public String add() {
         return "user-add";

@@ -8,7 +8,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
-    <title>数据 - AdminLTE2定制版</title>
+    <title>Permission Manage</title>
     <meta name="description" content="AdminLTE2定制版">
     <meta name="keywords" content="AdminLTE2定制版">
 
@@ -66,11 +66,11 @@
 <div class="wrapper">
 
     <!-- 页面头部 -->
-    <jsp:include page="header.jsp"></jsp:include>
+    <jsp:include page="header.jsp"/>
     <!-- 页面头部 /-->
 
     <!-- 导航侧栏 -->
-    <jsp:include page="aside.jsp"></jsp:include>
+    <jsp:include page="aside.jsp"/>
     <!-- 导航侧栏 /-->
 
     <!-- 内容区域 -->
@@ -85,7 +85,7 @@
                 <li><a href="${pageContext.request.contextPath}/index.jsp"><i
                         class="fa fa-dashboard"></i> 首页</a></li>
                 <li><a
-                        href="${pageContext.request.contextPath}/permission/findAll.do">资源权限管理</a></li>
+                        href="${pageContext.request.contextPath}/permission/list">资源权限管理</a></li>
 
                 <li class="active">全部权限</li>
             </ol>
@@ -109,7 +109,7 @@
                             <div class="form-group form-inline">
                                 <div class="btn-group">
                                     <button type="button" class="btn btn-default" title="新建"
-                                            onclick="location.href='${pageContext.request.contextPath}/pages/permission-add.jsp'">
+                                            onclick="location.href='${pageContext.request.contextPath}/permission/toAdd'">
                                         <i class="fa fa-file-o"></i> 新建
                                     </button>
 
@@ -151,7 +151,7 @@
                                     <td>${p.permissionName }</td>
                                     <td>${p.url }</td>
                                     <td class="text-center">
-                                        <a href="${pageContext.request.contextPath}/role/findById.do?id=${p.id}"
+                                        <a href="${pageContext.request.contextPath}/role/findById?id=${p.id}"
                                            class="btn bg-olive btn-xs">详情</a>
                                         <a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${p.id}"
                                            class="btn bg-olive btn-xs">添加角色</a>

@@ -34,9 +34,9 @@ public class RoleController {
     }
 
     @RequestMapping("/details")
-    public ModelAndView getDetails(@RequestParam int id) {
+    public ModelAndView getDetails(@RequestParam(name = "id") int roleId) {
         ModelAndView mav = new ModelAndView();
-        Role role = roleService.findById(id);
+        Role role = roleService.findByRoleId(roleId);
         mav.addObject("role", role);
         mav.setViewName("user-role-details");
         return mav;
@@ -46,6 +46,11 @@ public class RoleController {
     public String addRole(Role role) {
         roleService.save(role);
         return "redirect:/role/list";
+    }
+
+    @RequestMapping("/findByPId")
+    public ModelAndView findByPId(@RequestParam int id) {
+        return null;
     }
 
     @RequestMapping("/add")

@@ -13,7 +13,7 @@ public interface IRoleService {
 
     List<Role> findAll(int cureentPage, int size);
 
-    Role findById(int id);
+    Role findByRoleId(int roleId);
 
     void save(Role role);
 }

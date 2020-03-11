@@ -2,6 +2,7 @@ package cn.dbdj1201.orm.dao;
 
 import cn.dbdj1201.orm.domain.Role;
 import org.apache.ibatis.annotations.*;
+import org.apache.ibatis.mapping.FetchType;
 
 import java.util.List;
 
@@ -27,6 +28,14 @@ public interface IRoleDao {
     @Update("insert into role(roleName,roleDesc) values(#{roleName},#{roleDesc})")
     void save(Role role);
 
-    @Select("select * from role where id = #{id}")
-    Role findById(int id);
+    @Select("select * from role where id = #{roleId}")
+    @Results({
+            @Result(id = true, property = "id", column = "id"),
+            @Result(property = "roleName", column = "roleName"),
+            @Result(property = "roleDesc", column = "roleDesc"),
+            @Result(property = "permissions", column = "id", javaType = java.util.List.class,
+                    many = @Many(select = "cn.dbdj1201.orm.dao.IPermissionDao.findPermissionByRid",
+                            fetchType = FetchType.LAZY))
+    })
+    Role findByRoleId(int roleId);
 }
