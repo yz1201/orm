@@ -1,7 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="" />
+    <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/fail.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/login.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/success.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/web.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-index.html" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/pages/all-admin-index.html" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -98,22 +111,22 @@
       <recent name="cn.dbdj1201.orm.dao" />
       <recent name="cn.dbdj.orm.dao" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.orm.domain" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\resources" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\WEB-INF\pages" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\img" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\css" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -355,12 +368,12 @@
     <list>
       <item itemvalue="JUnit.IProduceDaoTest.findAll" />
       <item itemvalue="JUnit.IProduceDaoTest.save" />
-      <item itemvalue="Maven.redeploy" />
-      <item itemvalue="Maven.deploy" />
-      <item itemvalue="Maven.orm_test [clean,package]" />
       <item itemvalue="JUnit.IOrdersDaoTest.findAll" />
       <item itemvalue="JUnit.OrdersServiceImplTest.findAll" />
       <item itemvalue="JUnit.OrdersServiceImplTest.findById" />
+      <item itemvalue="Maven.redeploy" />
+      <item itemvalue="Maven.deploy" />
+      <item itemvalue="Maven.orm_test [clean,package]" />
     </list>
     <recent_temporary>
       <list>
@@ -384,7 +397,8 @@
       <updated>1583730487585</updated>
       <workItem from="1583730490195" duration="12553000" />
       <workItem from="1583762255302" duration="9476000" />
-      <workItem from="1583809496059" duration="32359000" />
+      <workItem from="1583809496059" duration="32595000" />
+      <workItem from="1583893443308" duration="4423000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -491,7 +505,21 @@
       <option name="project" value="LOCAL" />
       <updated>1583864171377</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="orm -st permission second">
+      <created>1583864278823</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1583864278823</updated>
+    </task>
+    <task id="LOCAL-00017" summary="orm -st permission third">
+      <created>1583864385340</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1583864385340</updated>
+    </task>
+    <option name="localTasksCounter" value="18" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -516,7 +544,9 @@
     <MESSAGE value="orm -st domain, orders list" />
     <MESSAGE value="orm -st orders details" />
     <MESSAGE value="orm -st permission" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm -st permission" />
+    <MESSAGE value="orm -st permission second" />
+    <MESSAGE value="orm -st permission third" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st permission third" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -532,18 +562,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583854401804" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583863817444">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583897885157">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583863817444" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583897885157" />
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583771221459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583864303051">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583864383840">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583864303051" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583864383840" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -556,22 +586,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040@0.0.1920.1040" timestamp="1583748465422" />
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1583864291995">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom" timestamp="1583864419355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583864291995" />
-    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1583864291995">
+    <state width="1877" height="351" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
+    <state width="1877" height="351" key="GridCell.Tab.0.center" timestamp="1583864419355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583864291995" />
-    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1583864291995">
+    <state width="1877" height="351" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
+    <state width="1877" height="351" key="GridCell.Tab.0.left" timestamp="1583864419355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583864291995" />
-    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1583864291995">
+    <state width="1877" height="351" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right" timestamp="1583864419355">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583864291995" />
+    <state width="1877" height="351" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583864419355" />
     <state x="461" y="162" key="SettingsEditor" timestamp="1583749562877">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -580,10 +610,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="438" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583765047062" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583862022257">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583864393465">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583862022257" />
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583864393465" />
     <state x="731" y="222" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583860593537">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
