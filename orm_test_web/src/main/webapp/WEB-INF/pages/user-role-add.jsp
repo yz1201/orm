@@ -97,9 +97,7 @@
                 method="post">
             <!-- 正文区域 -->
             <section class="content">
-
                 <input type="hidden" name="userId" value="${user.id}">
-
                 <table id="dataList"
                        class="table table-bordered table-striped table-hover dataTable">
                     <thead>
@@ -116,9 +114,7 @@
                     <c:forEach items="${roleList}" var="role">
                         <tr>
                             <td>
-
                                 <input name="ids" type="checkbox" value="${role.id}">
-
                             </td>
                             <td>${role.id}</td>
                             <td>${role.roleName}</td>

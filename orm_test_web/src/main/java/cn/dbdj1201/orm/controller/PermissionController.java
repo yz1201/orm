@@ -31,7 +31,7 @@ public class PermissionController {
     }
 
     @RequestMapping("/details")
-    public ModelAndView getDetails(@RequestParam int id) {
+    public ModelAndView getDetails(@RequestParam(defaultValue = "1") int id) {
         ModelAndView mav = new ModelAndView();
         mav.addObject("permission", permissionService.findById(id));
         mav.setViewName("permission-details");

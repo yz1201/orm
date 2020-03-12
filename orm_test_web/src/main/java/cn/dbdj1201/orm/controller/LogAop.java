@@ -1,0 +1,87 @@
+package cn.dbdj1201.orm.controller;
+
+import cn.dbdj1201.orm.domain.SysLog;
+import org.aspectj.lang.JoinPoint;
+import org.aspectj.lang.annotation.After;
+import org.aspectj.lang.annotation.Aspect;
+import org.aspectj.lang.annotation.Before;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.core.context.SecurityContext;
+import org.springframework.security.core.context.SecurityContextHolder;
+import org.springframework.security.core.userdetails.User;
+import org.springframework.stereotype.Component;
+import org.springframework.web.bind.annotation.RequestMapping;
+
+import javax.servlet.http.HttpServletRequest;
+import java.lang.annotation.Annotation;
+import java.lang.reflect.Method;
+import java.util.Date;
+import java.util.stream.Stream;
+
+/**
+ * @author tyz1201
+ * @datetime 2020-03-12 17:37
+ **/
+@Component
+@Aspect
+@SuppressWarnings("unchecked")
+public class LogAop {
+    @Autowired
+    private HttpServletRequest request;
+
+    private Date visitTime; //开始时间
+    private Class clazz; //访问的类
+    private Method method;//访问的方法
+
+    @Before("execution(* cn.dbdj1201.orm.controller..*.*(..))")
+    public void doBefore(JoinPoint jp) throws NoSuchMethodException {
+        visitTime = new Date();
+        clazz = jp.getTarget().getClass();
+        String methodName = jp.getSignature().getName(); //获取访问的方法的名称
+        Object[] args = jp.getArgs();
+
+        if (args == null || args.length == 0) {
+            method = clazz.getMethod(methodName);
+        } else {
+            int len = args.length;
+            Class[] classes = new Class[args.length];
+            for (int i = 0; i < len; i++) {
+                classes[i] = args[i].getClass();
+            }
+            method = clazz.getMethod(methodName, classes);
+        }
+
+    }
+
+
+    @After("execution(* cn.dbdj1201.orm.controller..*.*(..))")
+    public void doAfter() {
+        long exexutionTime = new Date().getTime() - visitTime.getTime();
+
+//        SecurityContext context = (SecurityContext) request.getSession().getAttribute("SPRING_SECURITY_CONTEXT");
+
+
+        if (clazz != null && method != null && clazz != LogAop.class) {
+            RequestMapping clazzAnnotation = (RequestMapping) clazz.getAnnotation(RequestMapping.class);
+            if (clazzAnnotation != null) {
+                String[] classValue = clazzAnnotation.value();
+                RequestMapping methodAnnotation = method.getAnnotation(RequestMapping.class);
+                if (methodAnnotation != null) {
+                    String[] methodValue = methodAnnotation.value();
+                    String url = classValue[0] + methodValue[0];
+                    SecurityContext context = SecurityContextHolder.getContext();
+                    User user = (User) context.getAuthentication().getPrincipal();
+                    String username = user.getUsername();
+                    String ip = request.getRemoteAddr();
+                    SysLog sysLog = new SysLog();
+                    sysLog.setIp(ip);
+                    sysLog.setExecutionTime(exexutionTime);
+                    sysLog.setMethod(method.getName());
+                    sysLog.setUrl(url);
+                    sysLog.setUsername(username);
+                    sysLog.setVisitTime(visitTime);
+                }
+            }
+        }
+    }
+}

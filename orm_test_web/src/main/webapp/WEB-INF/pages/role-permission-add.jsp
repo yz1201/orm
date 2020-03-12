@@ -92,44 +92,86 @@
         </section>
         <!-- 内容头部 /-->
 
+        <%--        <form--%>
+        <%--                action="${pageContext.request.contextPath}/role/addPermissionToRole"--%>
+        <%--                method="post">--%>
+        <%--            <!-- 正文区域 -->--%>
+        <%--            <section class="content">--%>
+
+        <%--                <input type="hidden" name="roleId" value="${role.id}">--%>
+
+        <%--                <table id="dataList"--%>
+        <%--                       class="table table-bordered table-striped table-hover dataTable">--%>
+        <%--                    <thead>--%>
+        <%--                    <tr>--%>
+        <%--                        <th class="" style="padding-right: 0">--%>
+        <%--                            <input id="selall"--%>
+        <%--                                   type="checkbox" class="icheckbox_square-blue"></th>--%>
+        <%--                        <th class="sorting_asc">ID</th>--%>
+        <%--                        <th class="sorting">权限名称</th>--%>
+        <%--                        <th class="sorting">权限URL</th>--%>
+        <%--                    </tr>--%>
+        <%--                    </thead>--%>
+        <%--                    <tbody>--%>
+        <%--                    <c:forEach items="${permissionList}" var="permission">--%>
+        <%--                        <tr>--%>
+        <%--                            <td>--%>
+        <%--                                <input name="ids" type="checkbox" value="${permission.id}">--%>
+        <%--                            </td>--%>
+        <%--                            <td>${permission.id}</td>--%>
+        <%--                            <td>${permission.permissionName }</td>--%>
+        <%--                            <td>${permission.url}</td>--%>
+
+        <%--                        </tr>--%>
+        <%--                    </c:forEach>--%>
+        <%--                    </tbody>--%>
+
+        <%--                </table>--%>
+        <%--                <!--订单信息/--> <!--工具栏-->--%>
+        <%--                <div class="box-tools text-center">--%>
+        <%--                    <button type="submit" class="btn bg-maroon">保存</button>--%>
+        <%--                    <button type="button" class="btn bg-default"--%>
+        <%--                            onclick="history.back(-1);">返回--%>
+        <%--                    </button>--%>
+        <%--                </div>--%>
+        <%--                <!--工具栏/--> </section>--%>
+        <%--            <!-- 正文区域 /-->--%>
+        <%--        </form>--%>
+
         <form
                 action="${pageContext.request.contextPath}/role/addPermissionToRole"
                 method="post">
             <!-- 正文区域 -->
             <section class="content">
-
                 <input type="hidden" name="roleId" value="${role.id}">
-
                 <table id="dataList"
                        class="table table-bordered table-striped table-hover dataTable">
                     <thead>
                     <tr>
-                        <th class="" style="padding-right: 0px">
+                        <th class="" style="padding-right: 0">
                             <input id="selall"
                                    type="checkbox" class="icheckbox_square-blue"></th>
                         <th class="sorting_asc">ID</th>
                         <th class="sorting">权限名称</th>
-                        <th class="sorting">权限URL</th>
+                        <th class="sorting">URL</th>
                     </tr>
                     </thead>
                     <tbody>
-                    <c:forEach items="${permissionList}" var="permission">
+                    <c:forEach items="${permissionList}" var="p">
                         <tr>
                             <td>
-
-                                <input name="ids" type="checkbox" value="${permission.id}">
-
+                                <input name="ids" type="checkbox" value="${p.id}">
                             </td>
-                            <td>${permission.id}</td>
-                            <td>${permission.permissionName }</td>
-                            <td>${permission.url}</td>
+                            <td>${p.id}</td>
+                            <td>${p.permissionName}</td>
+                            <td>${p.url}</td>
 
                         </tr>
                     </c:forEach>
                     </tbody>
 
                 </table>
-                <!--订单信息/--> <!--工具栏-->
+                <!--工具栏-->
                 <div class="box-tools text-center">
                     <button type="submit" class="btn bg-maroon">保存</button>
                     <button type="button" class="btn bg-default"
@@ -139,16 +181,17 @@
                 <!--工具栏/--> </section>
             <!-- 正文区域 /-->
         </form>
+
     </div>
     <!-- 内容区域 /-->
 
     <!-- 底部导航 -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 1.0.8
+            <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2014-2017 <a
-                href="http://www.itcast.cn">研究院研发部</a>.
+        <strong>Copyright &copy; 2020-2020 <a
+                href="http://localhost">come back baby</a>.
         </strong> All rights reserved.
     </footer>
     <!-- 底部导航 /-->

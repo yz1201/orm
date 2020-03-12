@@ -35,11 +35,11 @@ public class RoleController {
     }
 
     @RequestMapping("/details")
-    public ModelAndView getDetails(@RequestParam(name = "id") int roleId) {
+    public ModelAndView getDetails(@RequestParam(name = "id", defaultValue = "1") int roleId) {
         ModelAndView mav = new ModelAndView();
         Role role = roleService.findByRoleId(roleId);
         mav.addObject("role", role);
-        mav.setViewName("user-role-details");
+        mav.setViewName("role-details");
         return mav;
     }
 
@@ -78,9 +78,12 @@ public class RoleController {
     }
 
     @RequestMapping("/addPermissionToRole")
-    public String addPermissionToRole(@RequestParam int roleId, @RequestParam int... ids) {
-
-
-        return "redirect:/permission/details";
+    public ModelAndView addPermissionToRole(@RequestParam int roleId, @RequestParam(required = false) int... ids) {
+        ModelAndView mav = new ModelAndView();
+        roleService.addPermissionsToRole(roleId, ids);
+        Role role = roleService.findByRoleId(roleId);
+        mav.addObject("role", role);
+        mav.setViewName("role-details");
+        return mav;
     }
 }

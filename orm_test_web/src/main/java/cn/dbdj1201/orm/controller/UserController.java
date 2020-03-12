@@ -5,6 +5,7 @@ import cn.dbdj1201.orm.domain.UserInfo;
 import cn.dbdj1201.orm.service.IUserService;
 import com.github.pagehelper.PageInfo;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.security.access.annotation.Secured;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -28,6 +29,7 @@ public class UserController {
      *
      * @return
      */
+    @Secured("ROLE_ADMIN")
     @RequestMapping("/list")
     public ModelAndView list(@RequestParam(name = "page", defaultValue = "1") int currentPage,
                              @RequestParam(defaultValue = "5") int size) {
@@ -58,6 +60,7 @@ public class UserController {
      * @param userInfo
      * @return
      */
+    @Secured("ROLE_ADMIN")
     @RequestMapping("/save")
     public String saveUser(UserInfo userInfo) {
         System.out.println("user info --> " + userInfo);
@@ -86,9 +89,13 @@ public class UserController {
      * @return
      */
     @RequestMapping("/addRoleToUser")
-    public String addRoleToUser(@RequestParam int userId, @RequestParam int... ids) {
+    public ModelAndView addRoleToUser(@RequestParam int userId, @RequestParam(required = false) int... ids) {
+        ModelAndView mav = new ModelAndView();
         userService.addRoleToUser(userId, ids);
-        return "redirect:/user/details";
+        UserInfo userInfo = userService.findById(userId);
+        mav.addObject("user", userInfo);
+        mav.setViewName("user-role-details");
+        return mav;
     }
 
     @RequestMapping("/add")

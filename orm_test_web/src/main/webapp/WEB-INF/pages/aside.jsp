@@ -1,5 +1,6 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
          pageEncoding="UTF-8" isELIgnored="false" %>
+<%@ taglib prefix="security" uri="http://www.springframework.org/security/tags" %>
 
 <aside class="main-sidebar">
     <!-- sidebar: style can be found in sidebar.less -->
@@ -11,7 +12,7 @@
                      class="img-circle" alt="User Image">
             </div>
             <div class="pull-left info">
-                <p>xxx</p>
+                <p><security:authentication property="principal.username"/></p>
                 <a href="#"><i class="fa fa-circle text-success"></i> 在线</a>
             </div>
         </div>
@@ -32,10 +33,11 @@
             </a>
                 <ul class="treeview-menu">
 
-                    <li id="system-setting1"><a
-                            href="${pageContext.request.contextPath}/user/list?page=1&size=5"> <i
-                            class="fa fa-circle-o"></i> 用户管理
-                    </a></li>
+                    <li id="system-setting1">
+                        <security:authorize access="hasRole('ADMIN')"/>
+                        <a href="${pageContext.request.contextPath}/user/list?page=1&size=5"> <i
+                                class="fa fa-circle-o"></i> 用户管理
+                        </a></li>
                     <li id="system-setting2"><a
                             href="${pageContext.request.contextPath}/role/list?page=1&size=4"> <i
                             class="fa fa-circle-o"></i> 角色管理
