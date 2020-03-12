@@ -26,7 +26,17 @@ public class PermissionServiceImpl implements IPermissionService {
     }
 
     @Override
+    public Permission findById(int id) {
+        return permissionDao.findById(id);
+    }
+
+    @Override
     public void save(Permission permission) {
         permissionDao.save(permission);
+    }
+
+    @Override
+    public void deleteById(int id) {
+        permissionDao.deleteById(id);
     }
 }

@@ -3,6 +3,7 @@ package cn.dbdj1201.orm.dao;
 import cn.dbdj1201.orm.domain.Permission;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Select;
+import org.apache.ibatis.annotations.Update;
 
 import java.util.List;
 
@@ -20,4 +21,17 @@ public interface IPermissionDao {
 
     @Insert("insert into permission(permissionName, url) values(#{permissionName}, #{url})")
     void save(Permission permission);
+
+    /**
+     * @param id
+     * @return
+     */
+    @Select("select * from permission where id =#{id}")
+    Permission findById(int id);
+
+    /**
+     * @param id
+     */
+    @Update("delete from permission where id = #{id}")
+    void deleteById(int id);
 }

@@ -1,4 +1,5 @@
 cn\dbdj1201\orm\service\impl\RoleServiceImpl.class
+cn\dbdj1201\orm\service\IPermissionService.class
 cn\dbdj1201\orm\service\IProductService.class
 cn\dbdj1201\orm\service\IRoleService.class
 cn\dbdj1201\orm\service\IOrdersService.class
@@ -6,3 +7,4 @@ cn\dbdj1201\orm\service\impl\OrdersServiceImpl.class
 cn\dbdj1201\orm\service\impl\UserServiceImpl.class
 cn\dbdj1201\orm\service\IUserService.class
 cn\dbdj1201\orm\service\impl\IProductServiceImpl.class
+cn\dbdj1201\orm\service\impl\PermissionServiceImpl.class

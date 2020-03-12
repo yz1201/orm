@@ -42,6 +42,9 @@ public class UserServiceImplTest {
 
     @Test
     public void findById() {
+
+        userService.findById(1).getRoles().forEach(System.out::println);
+
     }
 
     @Test
@@ -51,5 +54,14 @@ public class UserServiceImplTest {
     @Test
     public void testFindAll() {
         userService.findAll(3, 5).forEach(System.out::println);
+    }
+
+    @Test
+    public void testFindById() {
+    }
+
+    @Test
+    public void addRoleToUser() {
+        userService.addRoleToUser(19, 4, 5, 6, 7, 8, 9, 10);
     }
 }

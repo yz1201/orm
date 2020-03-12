@@ -31,4 +31,14 @@ public class IUserDaoTest {
     public void findByUsername() {
         System.out.println(userDao.findByUsername("test"));
     }
+
+    @Test
+    public void addRoleToUser() {
+        userDao.addRoleToUser(19, 5);
+    }
+
+    @Test
+    public void findRolesNotInThisUser() {
+        userDao.findRolesNotInThisUser(1).forEach(System.out::println);
+    }
 }

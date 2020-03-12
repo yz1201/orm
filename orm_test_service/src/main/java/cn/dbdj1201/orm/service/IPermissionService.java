@@ -10,7 +10,25 @@ import java.util.List;
  **/
 public interface IPermissionService {
 
+    /**
+     * @return
+     */
     List<Permission> findAll();
 
+
+    /**
+     * @param id
+     * @return
+     */
+    Permission findById(int id);
+
+    /**
+     * @param permission
+     */
     void save(Permission permission);
+
+    /**
+     * @param id
+     */
+    void deleteById(int id);
 }

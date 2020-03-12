@@ -152,10 +152,10 @@
                                     <td>${role.roleDesc }</td>
                                     <td class="text-center">
                                         <a href="${pageContext.request.contextPath}/role/details?id=${role.id}"
-                                           class="btn bg-olive btn-xs">详情</a>
-                                        <a href="${pageContext.request.contextPath}/role/add"
-                                           class="btn bg-olive btn-xs">添加角色</a>
-                                        <a href="${pageContext.request.contextPath}/role/delete"
+                                           class="btn bg-olive btn-xs">角色详情</a>
+                                        <a href="${pageContext.request.contextPath}/role/addPermission?id=${role.id}"
+                                           class="btn bg-olive btn-xs">添加权限</a>
+                                        <a href="${pageContext.request.contextPath}/role/delete?id=${role.id}"
                                            class="btn bg-olive btn-xs">删除角色</a>
                                     </td>
                                 </tr>
@@ -282,7 +282,7 @@
 <script src="${pageContext.request.contextPath}/plugins/flot/jquery.flot.categories.min.js"></script>
 <script src="${pageContext.request.contextPath}/plugins/ionslider/ion.rangeSlider.min.js"></script>
 <script src="${pageContext.request.contextPath}/plugins/bootstrap-slider/bootstrap-slider.js"></script>
-<script>
+<script type="text/javascript">
     function changePageSize() {
         //获取下拉框的值
         var pageSize = $("#changePageSize").val();

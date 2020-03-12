@@ -151,24 +151,14 @@
                                     <td>${p.permissionName }</td>
                                     <td>${p.url }</td>
                                     <td class="text-center">
-                                        <a href="${pageContext.request.contextPath}/role/findById?id=${p.id}"
-                                           class="btn bg-olive btn-xs">详情</a>
-                                        <a href="${pageContext.request.contextPath}/user/findUserByIdAndAllRole.do?id=${p.id}"
-                                           class="btn bg-olive btn-xs">添加角色</a>
+                                        <a href="${pageContext.request.contextPath}/permission/details?id=${p.id}"
+                                           class="btn bg-olive btn-xs">权限详情</a>
+                                        <a href="${pageContext.request.contextPath}/permission/delete?id=${p.id}"
+                                           class="btn bg-olive btn-xs">删除权限</a>
                                     </td>
                                 </tr>
                             </c:forEach>
                             </tbody>
-                            <!--
-                        <tfoot>
-                        <tr>
-                        <th>Rendering engine</th>
-                        <th>Browser</th>
-                        <th>Platform(s)</th>
-                        <th>Engine version</th>
-                        <th>CSS grade</th>
-                        </tr>
-                        </tfoot>-->
                         </table>
                         <!--数据列表/-->
 
@@ -177,37 +167,6 @@
 
                 </div>
                 <!-- /.box-body -->
-
-                <!-- .box-footer-->
-                <div class="box-footer">
-                    <div class="pull-left">
-                        <div class="form-group form-inline">
-                            总共2 页，共14 条数据。 每页 <select class="form-control">
-                            <option>1</option>
-                            <option>2</option>
-                            <option>3</option>
-                            <option>4</option>
-                            <option>5</option>
-                        </select> 条
-                        </div>
-                    </div>
-
-                    <div class="box-tools pull-right">
-                        <ul class="pagination">
-                            <li><a href="#" aria-label="Previous">首页</a></li>
-                            <li><a href="#">上一页</a></li>
-                            <li><a href="#">1</a></li>
-                            <li><a href="#">2</a></li>
-                            <li><a href="#">3</a></li>
-                            <li><a href="#">4</a></li>
-                            <li><a href="#">5</a></li>
-                            <li><a href="#">下一页</a></li>
-                            <li><a href="#" aria-label="Next">尾页</a></li>
-                        </ul>
-                    </div>
-
-                </div>
-                <!-- /.box-footer-->
 
             </div>
 
@@ -221,10 +180,10 @@
     <!-- 底部导航 -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 1.0.8
+            <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2014-2017 <a
-                href="http://www.itcast.cn">研究院研发部</a>.
+        <strong>Copyright &copy; 2020-2020 <a
+                href="http://localhost">come back baby</a>.
         </strong> All rights reserved.
     </footer>
     <!-- 底部导航 /-->

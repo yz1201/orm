@@ -54,7 +54,6 @@ public class Permission implements Serializable {
                 "id=" + id +
                 ", permissionName='" + permissionName + '\'' +
                 ", url='" + url + '\'' +
-                ", roles=" + roles +
                 '}';
     }
 }

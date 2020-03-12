@@ -1,5 +1,6 @@
 package cn.dbdj1201.orm.controller;
 
+import cn.dbdj1201.orm.domain.Permission;
 import cn.dbdj1201.orm.domain.Role;
 import cn.dbdj1201.orm.service.IRoleService;
 import com.github.pagehelper.PageInfo;
@@ -59,8 +60,27 @@ public class RoleController {
     }
 
     @RequestMapping("/delete")
-    public String deleteRole() {
-        return "role-delete";
+    public String deleteRole(@RequestParam int id) {
+        roleService.deleteById(id);
+        return "redirect:role-list";
     }
 
+
+    @RequestMapping("/addPermission")
+    public ModelAndView addPermission(@RequestParam("id") int roleId) {
+        ModelAndView mav = new ModelAndView();
+        Role role = roleService.findByRoleId(roleId);
+        List<Permission> permissions = roleService.findOtherPermission(roleId);
+        mav.addObject("role", role);
+        mav.addObject("permissionList", permissions);
+        mav.setViewName("role-permission-add");
+        return mav;
+    }
+
+    @RequestMapping("/addPermissionToRole")
+    public String addPermissionToRole(@RequestParam int roleId, @RequestParam int... ids) {
+
+
+        return "redirect:/permission/details";
+    }
 }

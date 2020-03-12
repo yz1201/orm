@@ -45,4 +45,19 @@ public interface IUserDao {
     @Update("insert into users(email, username, password, phoneNum, status) values(#{email},#{username},#{password},#{phoneNum},#{status})")
     void save(UserInfo userInfo);
 
+    /**
+     * @param userId
+     * @return
+     */
+    @Select("select * from role where id not in (select rid from users_role where uid = #{userId})")
+    List<Role> findRolesNotInThisUser(int userId);
+
+    /**
+     * @param uid
+     * @param rid
+     */
+    @Update("insert into users_role(uid, rid) values(#{uid}, #{rid})")
+    void addRoleToUser(@Param("uid") int uid, @Param("rid") int rid);
+
+
 }

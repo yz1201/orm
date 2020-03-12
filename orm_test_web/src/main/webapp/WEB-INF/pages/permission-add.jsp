@@ -6,7 +6,7 @@
     <!-- 页面meta -->
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>数据 - AdminLTE2定制版</title>
+    <title>Permission Add</title>
     <meta name="description" content="AdminLTE2定制版">
     <meta name="keywords" content="AdminLTE2定制版">
 
@@ -67,10 +67,10 @@
 <div class="wrapper">
 
     <!-- 页面头部 -->
-    <jsp:include page="header.jsp"></jsp:include>
+    <jsp:include page="header.jsp"/>
     <!-- 页面头部 /-->
     <!-- 导航侧栏 -->
-    <jsp:include page="aside.jsp"></jsp:include>
+    <jsp:include page="aside.jsp"/>
     <!-- 导航侧栏 /-->
 
     <!-- 内容区域 -->
@@ -84,13 +84,13 @@
             <ol class="breadcrumb">
                 <li><a href="${pageContext.request.contextPath}/index.jsp"><i
                         class="fa fa-dashboard"></i> 首页</a></li>
-                <li><a href="${pageContext.request.contextPath}/permission/findAll.do">资源权限管理</a></li>
+                <li><a href="${pageContext.request.contextPath}/permission/list">资源权限管理</a></li>
                 <li class="active">资源权限表单</li>
             </ol>
         </section>
         <!-- 内容头部 /-->
 
-        <form action="${pageContext.request.contextPath}/permission/save.do"
+        <form action="${pageContext.request.contextPath}/permission/addPermission"
               method="post">
             <!-- 正文区域 -->
             <section class="content"> <!--产品信息-->
@@ -129,10 +129,10 @@
     <!-- 底部导航 -->
     <footer class="main-footer">
         <div class="pull-right hidden-xs">
-            <b>Version</b> 1.0.8
+            <b>Version</b> 1.0.0
         </div>
-        <strong>Copyright &copy; 2014-2017 <a
-                href="http://www.itcast.cn">研究院研发部</a>.
+        <strong>Copyright &copy; 2020-2020 <a
+                href="http://localhost">come back baby</a>.
         </strong> All rights reserved.
     </footer>
     <!-- 底部导航 /-->

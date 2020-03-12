@@ -32,4 +32,9 @@ public class IRoleDaoTest {
     @Test
     public void save() {
     }
+
+    @Test
+    public void delete() {
+        roleDao.deleteById(16);
+    }
 }

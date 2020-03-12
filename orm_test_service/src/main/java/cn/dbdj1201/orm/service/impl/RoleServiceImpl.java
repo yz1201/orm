@@ -1,6 +1,7 @@
 package cn.dbdj1201.orm.service.impl;
 
 import cn.dbdj1201.orm.dao.IRoleDao;
+import cn.dbdj1201.orm.domain.Permission;
 import cn.dbdj1201.orm.domain.Role;
 import cn.dbdj1201.orm.service.IRoleService;
 import com.github.pagehelper.PageHelper;
@@ -33,7 +34,22 @@ public class RoleServiceImpl implements IRoleService {
     }
 
     @Override
+    public List<Permission> findOtherPermission(int roleId) {
+        return roleDao.findPermissionNotInThisRole(roleId);
+    }
+
+    @Override
     public void save(Role role) {
         roleDao.save(role);
+    }
+
+    @Override
+    public void deleteById(int id) {
+        roleDao.deleteById(id);
+    }
+
+    @Override
+    public void addPermissionsToRole(int roleId, int pids) {
+
     }
 }

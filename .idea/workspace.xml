@@ -2,20 +2,45 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="5db93bfa-6f15-4d79-98ce-a2344febb24d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IPermissionService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/PermissionServiceImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/PermissionController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-role-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/PermissionServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/RoleServiceImplTest.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-details.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-permission-add.jsp" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/syslog-list.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IPermissionDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IPermissionDao.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IRoleDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/main/java/cn/dbdj1201/orm/dao/IUserDao.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IRoleDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IRoleDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IUserDaoTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/src/test/java/cn/dbdj1201/orm/dao/IUserDaoTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_dao/target/CrazyDog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Permission.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_domain/src/main/java/cn/dbdj1201/orm/domain/Permission.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IPermissionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IPermissionService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IRoleService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IRoleService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/IUserService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/PermissionServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/PermissionServiceImpl.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/RoleServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/main/java/cn/dbdj1201/orm/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/CrazyDog.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/PermissionController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/PermissionController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/RoleController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/RoleController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/java/cn/dbdj1201/orm/controller/UserController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/resources/spring-security.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/permission-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-list.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/role-list.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-role-add.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/src/main/webapp/WEB-INF/pages/user-role-add.jsp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog.war" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_dao-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/CrazyDog/WEB-INF/lib/orm_test_service-1.0-SNAPSHOT.jar" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-archiver/pom.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/orm_test_web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -42,9 +67,9 @@
       <list>
         <option value="spring-beans.schema" />
         <option value="Jsp File" />
-        <option value="JUnit4 Test Class" />
         <option value="Interface" />
         <option value="Class" />
+        <option value="JUnit4 Test Class" />
       </list>
     </option>
   </component>
@@ -117,6 +142,13 @@
       <recent name="cn.dbdj1201.orm.controller" />
       <recent name="cn.dbdj.orm.dao" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
+      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="cn.dbdj1201.orm.domain" />
     </key>
@@ -126,13 +158,6 @@
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\resources" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\img" />
       <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins" />
-    </key>
-    <key name="CreateTestDialog.Recents.Supers">
-      <recent name="" />
-    </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp\plugins\datatables" />
-      <recent name="F:\maven_project\orm_test\orm_test_web\src\main\webapp" />
     </key>
   </component>
   <component name="RunAnythingCache">
@@ -144,7 +169,7 @@
       <command value="mvn install -Dmaven.test.skip=true" />
     </option>
   </component>
-  <component name="RunManager" selected="Maven.redeploy">
+  <component name="RunManager" selected="JUnit.RoleServiceImplTest.findOtherPermission">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
@@ -162,7 +187,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IRoleDaoTest.findAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IUserDaoTest.addRoleToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_dao" />
       <extension name="coverage">
         <pattern>
@@ -171,8 +196,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IRoleDaoTest" />
-      <option name="METHOD_NAME" value="findAll" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IUserDaoTest" />
+      <option name="METHOD_NAME" value="addRoleToUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -182,7 +207,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IRoleDaoTest.findRoleByUid" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="IUserDaoTest.findRolesNotInThisUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_dao" />
       <extension name="coverage">
         <pattern>
@@ -191,8 +216,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.dao" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IRoleDaoTest" />
-      <option name="METHOD_NAME" value="findRoleByUid" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.dao.IUserDaoTest" />
+      <option name="METHOD_NAME" value="findRolesNotInThisUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -202,7 +227,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.loadUserByUsername" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="RoleServiceImplTest.findOtherPermission" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_service" />
       <extension name="coverage">
         <pattern>
@@ -211,8 +236,8 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
-      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="loadUserByUsername" />
+      <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.RoleServiceImplTest" />
+      <option name="METHOD_NAME" value="findOtherPermission" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -222,7 +247,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.save" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.addRoleToUser" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_service" />
       <extension name="coverage">
         <pattern>
@@ -232,7 +257,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="save" />
+      <option name="METHOD_NAME" value="addRoleToUser" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -242,7 +267,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserServiceImplTest.testFindAll" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="UserServiceImplTest.findById" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="orm_test_service" />
       <extension name="coverage">
         <pattern>
@@ -252,7 +277,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="cn.dbdj1201.orm.service.impl" />
       <option name="MAIN_CLASS_NAME" value="cn.dbdj1201.orm.service.impl.UserServiceImplTest" />
-      <option name="METHOD_NAME" value="testFindAll" />
+      <option name="METHOD_NAME" value="findById" />
       <option name="TEST_OBJECT" value="method" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="TEST_SEARCH_SCOPE">
@@ -372,22 +397,22 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.IRoleDaoTest.findAll" />
-      <item itemvalue="JUnit.UserServiceImplTest.save" />
-      <item itemvalue="JUnit.UserServiceImplTest.loadUserByUsername" />
-      <item itemvalue="JUnit.IRoleDaoTest.findRoleByUid" />
-      <item itemvalue="JUnit.UserServiceImplTest.testFindAll" />
       <item itemvalue="Maven.redeploy" />
       <item itemvalue="Maven.deploy" />
       <item itemvalue="Maven.orm_test [clean,package]" />
+      <item itemvalue="JUnit.UserServiceImplTest.findById" />
+      <item itemvalue="JUnit.UserServiceImplTest.addRoleToUser" />
+      <item itemvalue="JUnit.IUserDaoTest.addRoleToUser" />
+      <item itemvalue="JUnit.IUserDaoTest.findRolesNotInThisUser" />
+      <item itemvalue="JUnit.RoleServiceImplTest.findOtherPermission" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.UserServiceImplTest.testFindAll" />
-        <item itemvalue="JUnit.IRoleDaoTest.findRoleByUid" />
-        <item itemvalue="JUnit.IRoleDaoTest.findAll" />
-        <item itemvalue="JUnit.UserServiceImplTest.save" />
-        <item itemvalue="JUnit.UserServiceImplTest.loadUserByUsername" />
+        <item itemvalue="JUnit.RoleServiceImplTest.findOtherPermission" />
+        <item itemvalue="JUnit.IUserDaoTest.findRolesNotInThisUser" />
+        <item itemvalue="JUnit.UserServiceImplTest.addRoleToUser" />
+        <item itemvalue="JUnit.IUserDaoTest.addRoleToUser" />
+        <item itemvalue="JUnit.UserServiceImplTest.findById" />
       </list>
     </recent_temporary>
   </component>
@@ -405,7 +430,8 @@
       <workItem from="1583762255302" duration="9476000" />
       <workItem from="1583809496059" duration="32595000" />
       <workItem from="1583893443308" duration="24795000" />
-      <workItem from="1583932004269" duration="4171000" />
+      <workItem from="1583932004269" duration="4283000" />
+      <workItem from="1583978747205" duration="7115000" />
     </task>
     <task id="LOCAL-00001" summary="orm -st ssm">
       <created>1583775231279</created>
@@ -547,7 +573,14 @@
       <option name="project" value="LOCAL" />
       <updated>1583921794862</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="orm -st users permission 6th">
+      <created>1583936289839</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1583936289839</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -577,7 +610,8 @@
     <MESSAGE value="orm -st users permission" />
     <MESSAGE value="orm -st users permission 4th" />
     <MESSAGE value="orm -st users permission 5th" />
-    <option name="LAST_COMMIT_MESSAGE" value="orm -st users permission 5th" />
+    <MESSAGE value="orm -st users permission 6th" />
+    <option name="LAST_COMMIT_MESSAGE" value="orm -st users permission 6th" />
     <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -593,18 +627,18 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="414" y="175" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583854401804" />
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583922965650">
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser" timestamp="1583985975424">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583922965650" />
+    <state x="765" y="204" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1583985975424" />
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog" timestamp="1583771221459">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="564" y="445" key="#com.intellij.refactoring.move.MoveHandler.SelectRefactoringDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583771221459" />
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583921791659">
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2" timestamp="1583936279494">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583921791659" />
+    <state x="518" y="112" width="1222" height="816" key="CommitChangelistDialog2/0.0.1920.1040@0.0.1920.1040" timestamp="1583936279494" />
     <state x="92" y="92" width="1736" height="856" key="DiffContextDialog" timestamp="1583839180230">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -617,22 +651,22 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="0" y="188" key="FileDocumentManager.FileCacheConflict/0.0.1920.1040@0.0.1920.1040" timestamp="1583748465422" />
-    <state width="1877" height="411" key="GridCell.Tab.0.bottom" timestamp="1583935252383">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom" timestamp="1583985657360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583935252383" />
-    <state width="1877" height="411" key="GridCell.Tab.0.center" timestamp="1583935252383">
+    <state width="1877" height="258" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1583985657360" />
+    <state width="1877" height="258" key="GridCell.Tab.0.center" timestamp="1583985657359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583935252383" />
-    <state width="1877" height="411" key="GridCell.Tab.0.left" timestamp="1583935252383">
+    <state width="1877" height="258" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1583985657359" />
+    <state width="1877" height="258" key="GridCell.Tab.0.left" timestamp="1583985657359">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583935252383" />
-    <state width="1877" height="411" key="GridCell.Tab.0.right" timestamp="1583935252383">
+    <state width="1877" height="258" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1583985657359" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right" timestamp="1583985657360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state width="1877" height="411" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583935252383" />
+    <state width="1877" height="258" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1583985657360" />
     <state width="1877" height="539" key="GridCell.Tab.1.bottom" timestamp="1583931460602">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -657,14 +691,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="840" y="438" key="VCS.EditChangelistDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583765047062" />
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583921814217">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2" timestamp="1583936323884">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583921814217" />
-    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583920553442">
+    <state x="552" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1583936323884" />
+    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1583985561475">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583920553442" />
+    <state x="1041" y="232" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1583985561475" />
     <state x="744" y="311" key="git4idea.merge.GitMergeDialog" timestamp="1583838905608">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -673,14 +707,14 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="334" y="215" key="new project wizard/0.0.1920.1040@0.0.1920.1040" timestamp="1583771315196" />
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583935194402">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup" timestamp="1583981233721">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583935194402" />
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583857032869">
+    <state x="616" y="240" width="672" height="677" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583981233721" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup" timestamp="1583985759998">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583857032869" />
+    <state x="623" y="225" width="672" height="678" key="search.everywhere.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1583985759998" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -711,11 +745,19 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-method">
           <url>file://$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java</url>
-          <line>51</line>
+          <line>54</line>
           <properties class="cn.dbdj1201.orm.service.impl.UserServiceImplTest" method="testFindAll">
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/orm_test_service/src/test/java/cn/dbdj1201/orm/service/impl/UserServiceImplTest.java</url>
+          <line>43</line>
+          <properties class="cn.dbdj1201.orm.service.impl.UserServiceImplTest" method="findById">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="10" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

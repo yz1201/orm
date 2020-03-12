@@ -5,6 +5,7 @@ import cn.dbdj1201.orm.service.IPermissionService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.List;
@@ -29,6 +30,25 @@ public class PermissionController {
         return mav;
     }
 
+    @RequestMapping("/details")
+    public ModelAndView getDetails(@RequestParam int id) {
+        ModelAndView mav = new ModelAndView();
+        mav.addObject("permission", permissionService.findById(id));
+        mav.setViewName("permission-details");
+        return mav;
+    }
+
+    @RequestMapping("/addPermission")
+    public String addPermission(Permission permission) {
+        permissionService.save(permission);
+        return "redirect:/permission/list";
+    }
+
+    @RequestMapping("/delete")
+    public String deleteById(@RequestParam int id) {
+        permissionService.deleteById(id);
+        return "redirect:/permission/list";
+    }
 
     @RequestMapping("/toAdd")
     public String toAdd() {

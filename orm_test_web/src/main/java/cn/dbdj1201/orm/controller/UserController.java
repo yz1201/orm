@@ -1,5 +1,6 @@
 package cn.dbdj1201.orm.controller;
 
+import cn.dbdj1201.orm.domain.Role;
 import cn.dbdj1201.orm.domain.UserInfo;
 import cn.dbdj1201.orm.service.IUserService;
 import com.github.pagehelper.PageInfo;
@@ -40,7 +41,10 @@ public class UserController {
         return mav;
     }
 
-
+    /**
+     * @param id
+     * @return
+     */
     @RequestMapping("/details")
     public ModelAndView getDetails(@RequestParam(defaultValue = "1") int id) {
         ModelAndView mav = new ModelAndView();
@@ -50,6 +54,10 @@ public class UserController {
         return mav;
     }
 
+    /**
+     * @param userInfo
+     * @return
+     */
     @RequestMapping("/save")
     public String saveUser(UserInfo userInfo) {
         System.out.println("user info --> " + userInfo);
@@ -57,10 +65,29 @@ public class UserController {
         return "redirect:/user/list";
     }
 
+    /**
+     * @param id
+     * @return
+     */
     @RequestMapping("/addRole")
-    public String addRole(@RequestParam int id) {
+    public ModelAndView addRole(@RequestParam int id) {
+        ModelAndView mav = new ModelAndView();
+        UserInfo user = userService.findById(id);
+        List<Role> roles = userService.findOtherRoles(id);
+        mav.addObject("user", user);
+        mav.addObject("roleList", roles);
+        mav.setViewName("user-role-add");
+        return mav;
+    }
 
-
+    /**
+     * @param userId
+     * @param ids
+     * @return
+     */
+    @RequestMapping("/addRoleToUser")
+    public String addRoleToUser(@RequestParam int userId, @RequestParam int... ids) {
+        userService.addRoleToUser(userId, ids);
         return "redirect:/user/details";
     }
 
