@@ -29,6 +29,10 @@ public interface IPermissionDao {
     @Select("select * from permission where id =#{id}")
     Permission findById(int id);
 
+
+    @Update("delete from role_permission where pid = #{pid}")
+    void deleteFromRolePermission(int pid);
+
     /**
      * @param id
      */

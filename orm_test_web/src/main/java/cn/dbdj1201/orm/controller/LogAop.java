@@ -1,6 +1,7 @@
 package cn.dbdj1201.orm.controller;
 
 import cn.dbdj1201.orm.domain.SysLog;
+import cn.dbdj1201.orm.service.ISysLogService;
 import org.aspectj.lang.JoinPoint;
 import org.aspectj.lang.annotation.After;
 import org.aspectj.lang.annotation.Aspect;
@@ -13,10 +14,8 @@ import org.springframework.stereotype.Component;
 import org.springframework.web.bind.annotation.RequestMapping;
 
 import javax.servlet.http.HttpServletRequest;
-import java.lang.annotation.Annotation;
 import java.lang.reflect.Method;
 import java.util.Date;
-import java.util.stream.Stream;
 
 /**
  * @author tyz1201
@@ -24,16 +23,18 @@ import java.util.stream.Stream;
  **/
 @Component
 @Aspect
-@SuppressWarnings("unchecked")
 public class LogAop {
     @Autowired
     private HttpServletRequest request;
+
+    @Autowired
+    private ISysLogService sysLogService;
 
     private Date visitTime; //开始时间
     private Class clazz; //访问的类
     private Method method;//访问的方法
 
-    @Before("execution(* cn.dbdj1201.orm.controller..*.*(..))")
+    @Before("execution(* cn.dbdj1201.orm.controller.*.*(..))")
     public void doBefore(JoinPoint jp) throws NoSuchMethodException {
         visitTime = new Date();
         clazz = jp.getTarget().getClass();
@@ -53,14 +54,9 @@ public class LogAop {
 
     }
 
-
-    @After("execution(* cn.dbdj1201.orm.controller..*.*(..))")
-    public void doAfter() {
+    @After("execution(* cn.dbdj1201.orm.controller.*.*(..))")
+    public void doAfter() throws Exception {
         long exexutionTime = new Date().getTime() - visitTime.getTime();
-
-//        SecurityContext context = (SecurityContext) request.getSession().getAttribute("SPRING_SECURITY_CONTEXT");
-
-
         if (clazz != null && method != null && clazz != LogAop.class) {
             RequestMapping clazzAnnotation = (RequestMapping) clazz.getAnnotation(RequestMapping.class);
             if (clazzAnnotation != null) {
@@ -76,10 +72,11 @@ public class LogAop {
                     SysLog sysLog = new SysLog();
                     sysLog.setIp(ip);
                     sysLog.setExecutionTime(exexutionTime);
-                    sysLog.setMethod(method.getName());
+                    sysLog.setMethod("[类名]" + clazz.getName() + "[方法名]" + method.getName());
                     sysLog.setUrl(url);
                     sysLog.setUsername(username);
                     sysLog.setVisitTime(visitTime);
+                    sysLogService.save(sysLog);
                 }
             }
         }

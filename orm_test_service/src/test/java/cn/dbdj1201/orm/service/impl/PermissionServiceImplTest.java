@@ -13,7 +13,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @datetime 2020-03-12 10:17
  **/
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:spring/applicationContext-service.xml")
+@ContextConfiguration(locations = "classpath:applicationContext-service.xml")
 public class PermissionServiceImplTest {
 
     @Autowired
@@ -25,5 +25,10 @@ public class PermissionServiceImplTest {
         permission.setPermissionName("test");
         permission.setUrl("/test");
         permissionService.save(permission);
+    }
+
+    @Test
+    public void deleteById() {
+        permissionService.deleteById(9);
     }
 }

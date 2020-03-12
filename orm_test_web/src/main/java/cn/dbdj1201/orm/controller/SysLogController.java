@@ -1,5 +1,7 @@
 package cn.dbdj1201.orm.controller;
 
+import cn.dbdj1201.orm.service.ISysLogService;
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.servlet.ModelAndView;
@@ -12,12 +14,14 @@ import org.springframework.web.servlet.ModelAndView;
 @RequestMapping("/syslog")
 public class SysLogController {
 
+    @Autowired
+    private ISysLogService sysLogService;
+
     @RequestMapping("/list")
     public ModelAndView list() {
         ModelAndView mav = new ModelAndView();
-
-
+        mav.addObject("sysLogList", sysLogService.findAll());
         mav.setViewName("syslog-list");
-        return null;
+        return mav;
     }
 }

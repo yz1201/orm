@@ -31,8 +31,8 @@ public class OrdersController {
      * @return
      */
     @RequestMapping("/list")
-    public ModelAndView list(@RequestParam(defaultValue = "1", name = "page") int currentPage,
-                             @RequestParam(defaultValue = "10") int size) {
+    public ModelAndView list(@RequestParam(defaultValue = "1", name = "page") Integer currentPage,
+                             @RequestParam(defaultValue = "10") Integer size) {
         ModelAndView mav = new ModelAndView();
         List<Orders> ordersList = iOrdersService.findAll(currentPage, size);
         PageInfo pageInfo = new PageInfo(ordersList);
@@ -47,7 +47,7 @@ public class OrdersController {
      * @return
      */
     @RequestMapping("/add")
-    public String details(@RequestParam int id) {
+    public String details(@RequestParam Integer id) {
         return "user-add";
     }
 

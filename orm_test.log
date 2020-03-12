@@ -1,0 +1,151 @@
+2020-03-13 00:17:02,053 0      [           main] DEBUG junit4.SpringJUnit4ClassRunner  - SpringJUnit4ClassRunner constructor called with [class cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,057 4      [           main] DEBUG rk.test.context.BootstrapUtils  - Instantiating CacheAwareContextLoaderDelegate from class [org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate]
+2020-03-13 00:17:02,074 21     [           main] DEBUG rk.test.context.BootstrapUtils  - Instantiating BootstrapContext using constructor [public org.springframework.test.context.support.DefaultBootstrapContext(java.lang.Class,org.springframework.test.context.CacheAwareContextLoaderDelegate)]
+2020-03-13 00:17:02,137 84     [           main] DEBUG rk.test.context.BootstrapUtils  - Instantiating TestContextBootstrapper for test class [cn.dbdj1201.orm.controller.UserControllerTest] from class [org.springframework.test.context.support.DefaultTestContextBootstrapper]
+2020-03-13 00:17:02,190 137    [           main] DEBUG ctDelegatingSmartContextLoader  - Delegating to GenericXmlContextLoader to process context configuration [ContextConfigurationAttributes@4218d6a3 declaringClass = 'cn.dbdj1201.orm.controller.UserControllerTest', classes = '{}', locations = '{classpath:applicationContext.xml}', inheritLocations = true, initializers = '{}', inheritInitializers = true, name = [null], contextLoaderClass = 'org.springframework.test.context.ContextLoader'].
+2020-03-13 00:17:02,224 171    [           main] DEBUG xt.support.ActiveProfilesUtils  - Could not find an 'annotation declaring class' for annotation type [org.springframework.test.context.ActiveProfiles] and class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,225 172    [           main] DEBUG DefaultTestContextBootstrapper  - @TestExecutionListeners is not present for class [cn.dbdj1201.orm.controller.UserControllerTest]: using defaults.
+2020-03-13 00:17:02,226 173    [           main] INFO  DefaultTestContextBootstrapper  - Loaded default TestExecutionListener class names from location [META-INF/spring.factories]: [org.springframework.test.context.web.ServletTestExecutionListener, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener, org.springframework.test.context.support.DependencyInjectionTestExecutionListener, org.springframework.test.context.support.DirtiesContextTestExecutionListener, org.springframework.test.context.transaction.TransactionalTestExecutionListener, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener, org.springframework.test.context.event.EventPublishingTestExecutionListener]
+2020-03-13 00:17:02,251 198    [           main] INFO  DefaultTestContextBootstrapper  - Using TestExecutionListeners: [org.springframework.test.context.web.ServletTestExecutionListener@6913c1fb, org.springframework.test.context.support.DirtiesContextBeforeModesTestExecutionListener@66d18979, org.springframework.test.context.support.DependencyInjectionTestExecutionListener@bccb269, org.springframework.test.context.support.DirtiesContextTestExecutionListener@609cd4d8, org.springframework.test.context.transaction.TransactionalTestExecutionListener@17f7cd29, org.springframework.test.context.jdbc.SqlScriptsTestExecutionListener@7d8704ef, org.springframework.test.context.event.EventPublishingTestExecutionListener@13b6aecc]
+2020-03-13 00:17:02,254 201    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,255 202    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,256 203    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,256 203    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,257 204    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,257 204    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,271 218    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,272 219    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,273 220    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,273 220    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,274 221    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,274 221    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,279 226    [           main] DEBUG esContextTestExecutionListener  - Before test class: context [DefaultTestContext@6236eb5f testClass = UserControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7c1e2a9e testClass = UserControllerTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].
+2020-03-13 00:17:02,282 229    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved @ProfileValueSourceConfiguration [null] for test class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,282 229    [           main] DEBUG t.annotation.ProfileValueUtils  - Retrieved ProfileValueSource type [class org.springframework.test.annotation.SystemProfileValueSource] for class [cn.dbdj1201.orm.controller.UserControllerTest]
+2020-03-13 00:17:02,286 233    [           main] DEBUG InjectionTestExecutionListener  - Performing dependency injection for test context [[DefaultTestContext@6236eb5f testClass = UserControllerTest, testInstance = cn.dbdj1201.orm.controller.UserControllerTest@1d8bd0de, testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7c1e2a9e testClass = UserControllerTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]]].
+2020-03-13 00:17:02,288 235    [           main] DEBUG ctDelegatingSmartContextLoader  - Delegating to GenericXmlContextLoader to load context from [MergedContextConfiguration@7c1e2a9e testClass = UserControllerTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]].
+2020-03-13 00:17:02,288 235    [           main] DEBUG t.AbstractGenericContextLoader  - Loading ApplicationContext for merged context configuration [[MergedContextConfiguration@7c1e2a9e testClass = UserControllerTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]]].
+2020-03-13 00:17:02,412 359    [           main] DEBUG k.core.env.StandardEnvironment  - Activating profiles []
+2020-03-13 00:17:02,882 829    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\IProductServiceImpl.class]
+2020-03-13 00:17:02,883 830    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\OrdersServiceImpl.class]
+2020-03-13 00:17:02,884 831    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\PermissionServiceImpl.class]
+2020-03-13 00:17:02,885 832    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\RoleServiceImpl.class]
+2020-03-13 00:17:02,886 833    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\SysLogServiceImpl.class]
+2020-03-13 00:17:02,887 834    [           main] DEBUG ClassPathBeanDefinitionScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_service\target\classes\cn\dbdj1201\orm\service\impl\UserServiceImpl.class]
+2020-03-13 00:17:03,015 962    [           main] DEBUG ry.xml.XmlBeanDefinitionReader  - Loaded 21 bean definitions from class path resource [applicationContext.xml]
+2020-03-13 00:17:03,016 963    [           main] DEBUG port.GenericApplicationContext  - Refreshing org.springframework.context.support.GenericApplicationContext@1649b0e6
+2020-03-13 00:17:03,137 1084   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalConfigurationAnnotationProcessor'
+2020-03-13 00:17:03,289 1236   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'mapperScanner'
+2020-03-13 00:17:03,370 1317   [           main] DEBUG ache.ibatis.logging.LogFactory  - Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
+2020-03-13 00:17:03,379 1326   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IMemberDao.class]
+2020-03-13 00:17:03,379 1326   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IOrdersDao.class]
+2020-03-13 00:17:03,379 1326   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IPermissionDao.class]
+2020-03-13 00:17:03,380 1327   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IProductDao.class]
+2020-03-13 00:17:03,380 1327   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IRoleDao.class]
+2020-03-13 00:17:03,380 1327   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\ISysLogDao.class]
+2020-03-13 00:17:03,380 1327   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\ITravellerDao.class]
+2020-03-13 00:17:03,381 1328   [           main] DEBUG .mapper.ClassPathMapperScanner  - Identified candidate component class: file [F:\maven_project\orm_test\orm_test_dao\target\classes\cn\dbdj1201\orm\dao\IUserDao.class]
+2020-03-13 00:17:03,383 1330   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IMemberDao' and 'cn.dbdj1201.orm.dao.IMemberDao' mapperInterface
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IMemberDao'.
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IOrdersDao' and 'cn.dbdj1201.orm.dao.IOrdersDao' mapperInterface
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IOrdersDao'.
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IPermissionDao' and 'cn.dbdj1201.orm.dao.IPermissionDao' mapperInterface
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IPermissionDao'.
+2020-03-13 00:17:03,387 1334   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IProductDao' and 'cn.dbdj1201.orm.dao.IProductDao' mapperInterface
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IProductDao'.
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IRoleDao' and 'cn.dbdj1201.orm.dao.IRoleDao' mapperInterface
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IRoleDao'.
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'ISysLogDao' and 'cn.dbdj1201.orm.dao.ISysLogDao' mapperInterface
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'ISysLogDao'.
+2020-03-13 00:17:03,388 1335   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'ITravellerDao' and 'cn.dbdj1201.orm.dao.ITravellerDao' mapperInterface
+2020-03-13 00:17:03,389 1336   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'ITravellerDao'.
+2020-03-13 00:17:03,389 1336   [           main] DEBUG .mapper.ClassPathMapperScanner  - Creating MapperFactoryBean with name 'IUserDao' and 'cn.dbdj1201.orm.dao.IUserDao' mapperInterface
+2020-03-13 00:17:03,389 1336   [           main] DEBUG .mapper.ClassPathMapperScanner  - Enabling autowire by type for MapperFactoryBean with name 'IUserDao'.
+2020-03-13 00:17:03,397 1344   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0'
+2020-03-13 00:17:03,431 1378   [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'driver' in PropertySource 'localProperties' with value of type String
+2020-03-13 00:17:03,431 1378   [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'url' in PropertySource 'localProperties' with value of type String
+2020-03-13 00:17:03,432 1379   [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.username' in PropertySource 'localProperties' with value of type String
+2020-03-13 00:17:03,432 1379   [           main] DEBUG ropertySourcesPropertyResolver  - Found key 'jdbc.password' in PropertySource 'localProperties' with value of type String
+2020-03-13 00:17:03,433 1380   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerProcessor'
+2020-03-13 00:17:03,437 1384   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.event.internalEventListenerFactory'
+2020-03-13 00:17:03,437 1384   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionalEventListenerFactory'
+2020-03-13 00:17:03,442 1389   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalAutowiredAnnotationProcessor'
+2020-03-13 00:17:03,444 1391   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.context.annotation.internalCommonAnnotationProcessor'
+2020-03-13 00:17:03,451 1398   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.aop.config.internalAutoProxyCreator'
+2020-03-13 00:17:03,504 1451   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IProductServiceImpl'
+2020-03-13 00:17:03,546 1493   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IProductDao'
+2020-03-13 00:17:03,570 1517   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'sqlSessionFactory'
+2020-03-13 00:17:03,574 1521   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'dataSource'
+2020-03-13 00:17:03,748 1695   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.config.internalTransactionAdvisor'
+2020-03-13 00:17:03,753 1700   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'org.springframework.transaction.annotation.AnnotationTransactionAttributeSource#0'
+2020-03-13 00:17:03,932 1879   [           main] DEBUG s.spring.SqlSessionFactoryBean  - Property 'configuration' or 'configLocation' not specified, using default MyBatis Configuration
+2020-03-13 00:17:04,010 1957   [           main] DEBUG s.spring.SqlSessionFactoryBean  - Registered plugin: 'com.github.pagehelper.PageInterceptor@aa22f1c'
+2020-03-13 00:17:04,013 1960   [           main] DEBUG s.spring.SqlSessionFactoryBean  - Property 'mapperLocations' was not specified.
+2020-03-13 00:17:04,087 2034   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'ordersServiceImpl'
+2020-03-13 00:17:04,089 2036   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IOrdersDao'
+2020-03-13 00:17:04,108 2055   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'permissionServiceImpl'
+2020-03-13 00:17:04,111 2058   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IPermissionDao'
+2020-03-13 00:17:04,129 2076   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'roleServiceImpl'
+2020-03-13 00:17:04,131 2078   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IRoleDao'
+2020-03-13 00:17:04,143 2090   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'sysLogServiceImpl'
+2020-03-13 00:17:04,145 2092   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'ISysLogDao'
+2020-03-13 00:17:04,154 2101   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'userService'
+2020-03-13 00:17:04,158 2105   [           main] DEBUG ort.DefaultListableBeanFactory  - Creating shared instance of singleton bean 'IUserDao'
+2020-03-13 00:17:04,167 2114   [           main] WARN  port.GenericApplicationContext  - Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'passwordEncoder'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+2020-03-13 00:17:04,168 2115   [           main] INFO  aba.druid.pool.DruidDataSource  - {dataSource-0} closing ...
+2020-03-13 00:17:04,173 2120   [           main] ERROR est.context.TestContextManager  - Caught exception while allowing TestExecutionListener [org.springframework.test.context.support.DependencyInjectionTestExecutionListener@bccb269] to prepare test instance [cn.dbdj1201.orm.controller.UserControllerTest@1d8bd0de]
+java.lang.IllegalStateException: Failed to load ApplicationContext
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:132)
+	at org.springframework.test.context.support.DefaultTestContext.getApplicationContext(DefaultTestContext.java:123)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.injectDependencies(DependencyInjectionTestExecutionListener.java:118)
+	at org.springframework.test.context.support.DependencyInjectionTestExecutionListener.prepareTestInstance(DependencyInjectionTestExecutionListener.java:83)
+	at org.springframework.test.context.TestContextManager.prepareTestInstance(TestContextManager.java:244)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.createTest(SpringJUnit4ClassRunner.java:227)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner$1.runReflectiveCall(SpringJUnit4ClassRunner.java:289)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.methodBlock(SpringJUnit4ClassRunner.java:291)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:246)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.runChild(SpringJUnit4ClassRunner.java:97)
+	at org.junit.runners.ParentRunner$4.run(ParentRunner.java:331)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:79)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:329)
+	at org.junit.runners.ParentRunner.access$100(ParentRunner.java:66)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:293)
+	at org.springframework.test.context.junit4.statements.RunBeforeTestClassCallbacks.evaluate(RunBeforeTestClassCallbacks.java:61)
+	at org.springframework.test.context.junit4.statements.RunAfterTestClassCallbacks.evaluate(RunAfterTestClassCallbacks.java:70)
+	at org.junit.runners.ParentRunner$3.evaluate(ParentRunner.java:306)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:413)
+	at org.springframework.test.context.junit4.SpringJUnit4ClassRunner.run(SpringJUnit4ClassRunner.java:190)
+	at org.junit.runner.JUnitCore.run(JUnitCore.java:137)
+	at com.intellij.junit4.JUnit4IdeaTestRunner.startRunnerWithArgs(JUnit4IdeaTestRunner.java:68)
+	at com.intellij.rt.junit.IdeaTestRunner$Repeater.startRunnerWithArgs(IdeaTestRunner.java:33)
+	at com.intellij.rt.junit.JUnitStarter.prepareStreamsAndStart(JUnitStarter.java:230)
+	at com.intellij.rt.junit.JUnitStarter.main(JUnitStarter.java:58)
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'userService': Unsatisfied dependency expressed through field 'passwordEncoder'; nested exception is org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:643)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:130)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor.postProcessProperties(AutowiredAnnotationBeanPostProcessor.java:399)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1422)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:594)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:517)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:323)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:222)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:321)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:202)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:879)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:878)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:550)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:128)
+	at org.springframework.test.context.support.AbstractGenericContextLoader.loadContext(AbstractGenericContextLoader.java:60)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.delegateLoading(AbstractDelegatingSmartContextLoader.java:275)
+	at org.springframework.test.context.support.AbstractDelegatingSmartContextLoader.loadContext(AbstractDelegatingSmartContextLoader.java:243)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContextInternal(DefaultCacheAwareContextLoaderDelegate.java:99)
+	at org.springframework.test.context.cache.DefaultCacheAwareContextLoaderDelegate.loadContext(DefaultCacheAwareContextLoaderDelegate.java:124)
+	... 25 more
+Caused by: org.springframework.beans.factory.NoSuchBeanDefinitionException: No qualifying bean of type 'org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder' available: expected at least 1 bean which qualifies as autowire candidate. Dependency annotations: {@org.springframework.beans.factory.annotation.Autowired(required=true)}
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.raiseNoMatchingBeanFound(DefaultListableBeanFactory.java:1695)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1253)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1207)
+	at org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor$AutowiredFieldElement.inject(AutowiredAnnotationBeanPostProcessor.java:640)
+	... 43 more
+2020-03-13 00:17:04,201 2148   [           main] DEBUG esContextTestExecutionListener  - After test class: context [DefaultTestContext@6236eb5f testClass = UserControllerTest, testInstance = [null], testMethod = [null], testException = [null], mergedContextConfiguration = [MergedContextConfiguration@7c1e2a9e testClass = UserControllerTest, locations = '{classpath:applicationContext.xml}', classes = '{}', contextInitializerClasses = '[]', activeProfiles = '{}', propertySourceLocations = '{}', propertySourceProperties = '{}', contextCustomizers = set[[empty]], contextLoader = 'org.springframework.test.context.support.DelegatingSmartContextLoader', parent = [null]], attributes = map[[empty]]], class annotated with @DirtiesContext [false] with mode [null].

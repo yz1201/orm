@@ -50,6 +50,6 @@ public interface IRoleService {
      * @param roleId
      * @param pids
      */
-    void addPermissionsToRole(int roleId, int... pids);
+    void addPermissionsToRole(int roleId, Integer[] pids);
 
 }

@@ -24,8 +24,8 @@ public class RoleController {
     private IRoleService roleService;
 
     @RequestMapping("/list")
-    public ModelAndView list(@RequestParam(value = "page", defaultValue = "1") int currentPage,
-                             @RequestParam(defaultValue = "10") int size) {
+    public ModelAndView list(@RequestParam(value = "page", defaultValue = "1") Integer currentPage,
+                             @RequestParam(defaultValue = "10") Integer size) {
         ModelAndView mav = new ModelAndView();
         List<Role> roles = roleService.findAll(currentPage, size);
         PageInfo pageInfo = new PageInfo(roles);
@@ -35,7 +35,7 @@ public class RoleController {
     }
 
     @RequestMapping("/details")
-    public ModelAndView getDetails(@RequestParam(name = "id", defaultValue = "1") int roleId) {
+    public ModelAndView getDetails(@RequestParam(name = "id", defaultValue = "1") Integer roleId) {
         ModelAndView mav = new ModelAndView();
         Role role = roleService.findByRoleId(roleId);
         mav.addObject("role", role);
@@ -50,7 +50,7 @@ public class RoleController {
     }
 
     @RequestMapping("/findByPId")
-    public ModelAndView findByPId(@RequestParam int id) {
+    public ModelAndView findByPId(@RequestParam Integer id) {
         return null;
     }
 
@@ -60,14 +60,14 @@ public class RoleController {
     }
 
     @RequestMapping("/delete")
-    public String deleteRole(@RequestParam int id) {
+    public String deleteRole(@RequestParam Integer id) {
         roleService.deleteById(id);
         return "redirect:role-list";
     }
 
 
     @RequestMapping("/addPermission")
-    public ModelAndView addPermission(@RequestParam("id") int roleId) {
+    public ModelAndView addPermission(@RequestParam("id") Integer roleId) {
         ModelAndView mav = new ModelAndView();
         Role role = roleService.findByRoleId(roleId);
         List<Permission> permissions = roleService.findOtherPermission(roleId);
@@ -78,7 +78,7 @@ public class RoleController {
     }
 
     @RequestMapping("/addPermissionToRole")
-    public ModelAndView addPermissionToRole(@RequestParam int roleId, @RequestParam(required = false) int... ids) {
+    public ModelAndView addPermissionToRole(@RequestParam Integer roleId, @RequestParam(required = false) Integer[] ids) {
         ModelAndView mav = new ModelAndView();
         roleService.addPermissionsToRole(roleId, ids);
         Role role = roleService.findByRoleId(roleId);

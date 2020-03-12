@@ -278,7 +278,7 @@
     </dependencies>
     <!-- 添加tomcat7插件 -->
     <build>
-        <finalName>CrazyDog</finalName>
+        <finalName>ORM</finalName>
         <pluginManagement>
             <plugins>
                 <plugin>

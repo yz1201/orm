@@ -31,7 +31,7 @@ public class PermissionController {
     }
 
     @RequestMapping("/details")
-    public ModelAndView getDetails(@RequestParam(defaultValue = "1") int id) {
+    public ModelAndView getDetails(@RequestParam(defaultValue = "1") Integer id) {
         ModelAndView mav = new ModelAndView();
         mav.addObject("permission", permissionService.findById(id));
         mav.setViewName("permission-details");
@@ -45,7 +45,7 @@ public class PermissionController {
     }
 
     @RequestMapping("/delete")
-    public String deleteById(@RequestParam int id) {
+    public String deleteById(@RequestParam Integer id) {
         permissionService.deleteById(id);
         return "redirect:/permission/list";
     }

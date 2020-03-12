@@ -1,3 +1,8 @@
+cn\dbdj1201\orm\dao\IMemberDao.class
+cn\dbdj1201\orm\dao\IRoleDao.class
 cn\dbdj1201\orm\dao\IProductDao.class
+cn\dbdj1201\orm\dao\ISysLogDao.class
 cn\dbdj1201\orm\dao\IOrdersDao.class
+cn\dbdj1201\orm\dao\IPermissionDao.class
+cn\dbdj1201\orm\dao\ITravellerDao.class
 cn\dbdj1201\orm\dao\IUserDao.class

@@ -1,6 +1,8 @@
-cn\dbdj1201\orm\controller\PageController.class
 cn\dbdj1201\orm\controller\PermissionController.class
+cn\dbdj1201\orm\controller\SysLogController.class
+cn\dbdj1201\orm\controller\OrdersController.class
+cn\dbdj1201\orm\controller\PageController.class
 cn\dbdj1201\orm\controller\UserController.class
 cn\dbdj1201\orm\controller\RoleController.class
-cn\dbdj1201\orm\controller\OrdersController.class
 cn\dbdj1201\orm\controller\ProductController.class
+cn\dbdj1201\orm\controller\LogAop.class

@@ -36,5 +36,5 @@ public interface IUserService extends UserDetailsService {
      * @param userId
      * @param ids
      */
-    void addRoleToUser(int userId, int... ids);
+    void addRoleToUser(int userId, Integer[] ids);
 }

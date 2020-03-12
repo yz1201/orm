@@ -10,7 +10,7 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @author tyz1201
@@ -46,11 +46,12 @@ public class RoleServiceImpl implements IRoleService {
 
     @Override
     public void deleteById(int id) {
+        roleDao.deleteFromUsersRole(id);
         roleDao.deleteById(id);
     }
 
     @Override
-    public void addPermissionsToRole(int roleId, int... pids) {
-        IntStream.of(pids).forEach(pid -> roleDao.addPermissionToRole(roleId, pid));
+    public void addPermissionsToRole(int roleId, Integer[] pids) {
+        Stream.of(pids).forEach(pid -> roleDao.addPermissionToRole(roleId, pid));
     }
 }

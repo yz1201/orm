@@ -87,7 +87,7 @@
                 <li><a href="${pageContext.request.contextPath}/index.jsp"><i
                         class="fa fa-dashboard"></i> 首页</a></li>
                 <li><a
-                        href="${pageContext.request.contextPath}/sysLog/list">日志管理</a></li>
+                        href="${pageContext.request.contextPath}/syslog/list">日志管理</a></li>
 
                 <li class="active">全部日志</li>
             </ol>
@@ -131,8 +131,7 @@
                                class="table table-bordered table-striped table-hover dataTable">
                             <thead>
                             <tr>
-                                <th class="" style="padding-right: 0px"><input id="selall"
-                                                                               type="checkbox"
+                                <th class="" style="padding-right: 0px"><input id="selall" type="checkbox"
                                                                                class="icheckbox_square-blue"></th>
                                 <th class="sorting_asc">ID</th>
                                 <th class="sorting">访问时间</th>
@@ -144,7 +143,7 @@
                             </tr>
                             </thead>
                             <tbody>
-                            <c:forEach items="${sysLogs}" var="syslog">
+                            <c:forEach items="${sysLogList}" var="syslog">
                                 <tr>
                                     <td><input name="ids" type="checkbox"></td>
                                     <td>${syslog.id}</td>

@@ -1,5 +1,7 @@
 package cn.dbdj1201.orm.domain;
 
+import cn.dbdj1201.orm.utils.DateUtils;
+
 import java.io.Serializable;
 import java.util.Date;
 
@@ -33,11 +35,12 @@ public class SysLog implements Serializable {
     }
 
     public String getVisitTimeStr() {
-        return visitTime + "";
+        return visitTime == null ? "坏了" : DateUtils.date2String(visitTime, "yyyy-MM-dd HH:mm:ss");
     }
 
-    public void setVisitTimeStr(String visitTimeStr) {
-    }
+//    public void setVisitTimeStr(String visitTimeStr) {
+//
+//    }
 
     public String getUsername() {
         return username;
@@ -69,6 +72,10 @@ public class SysLog implements Serializable {
 
     public void setExecutionTime(Long executionTime) {
         this.executionTime = executionTime;
+    }
+
+    public String getExecutionTimeStr() {
+        return executionTime + "";
     }
 
     public String getMethod() {

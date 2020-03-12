@@ -62,6 +62,10 @@ public interface IRoleDao {
     @Select("select * from Permission where id not in (select pid from role_permission where rid = #{roleId})")
     List<Permission> findPermissionNotInThisRole(int roleId);
 
+
+    @Update("delete from users_role where rid = #{rid}")
+    void deleteFromUsersRole(int rid);
+
     /**
      * @param id
      */

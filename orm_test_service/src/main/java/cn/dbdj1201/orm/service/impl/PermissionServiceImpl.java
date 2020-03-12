@@ -37,6 +37,7 @@ public class PermissionServiceImpl implements IPermissionService {
 
     @Override
     public void deleteById(int id) {
+        permissionDao.deleteFromRolePermission(id);
         permissionDao.deleteById(id);
     }
 }

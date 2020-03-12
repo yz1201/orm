@@ -17,6 +17,7 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.stream.IntStream;
+import java.util.stream.Stream;
 
 /**
  * @author tyz1201
@@ -71,8 +72,8 @@ public class UserServiceImpl implements IUserService {
     }
 
     @Override
-    public void addRoleToUser(int userId, int... ids) {
-        IntStream.of(ids).forEach(rid -> iUserDao.addRoleToUser(userId, rid));
+    public void addRoleToUser(int userId, Integer[] ids) {
+        Stream.of(ids).forEach(rid -> iUserDao.addRoleToUser(userId, rid));
     }
 
     //作用就是返回一个List集合，集合中装入的是角色描述

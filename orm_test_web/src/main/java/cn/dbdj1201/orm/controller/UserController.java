@@ -89,7 +89,7 @@ public class UserController {
      * @return
      */
     @RequestMapping("/addRoleToUser")
-    public ModelAndView addRoleToUser(@RequestParam int userId, @RequestParam(required = false) int... ids) {
+    public ModelAndView addRoleToUser(@RequestParam int userId, @RequestParam(required = false) Integer[] ids) {
         ModelAndView mav = new ModelAndView();
         userService.addRoleToUser(userId, ids);
         UserInfo userInfo = userService.findById(userId);
