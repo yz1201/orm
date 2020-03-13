@@ -38,10 +38,6 @@ public class SysLog implements Serializable {
         return visitTime == null ? "坏了" : DateUtils.date2String(visitTime, "yyyy-MM-dd HH:mm:ss");
     }
 
-//    public void setVisitTimeStr(String visitTimeStr) {
-//
-//    }
-
     public String getUsername() {
         return username;
     }
@@ -91,7 +87,7 @@ public class SysLog implements Serializable {
     public String toString() {
         return "SysLog{" +
                 "id='" + id + '\'' +
-                ", visitTime=" + visitTime +
+                ", visitTime=" + getVisitTimeStr() +
                 ", username='" + username + '\'' +
                 ", ip='" + ip + '\'' +
                 ", url='" + url + '\'' +

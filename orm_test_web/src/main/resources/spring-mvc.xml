@@ -36,7 +36,6 @@
     -->
     <aop:aspectj-autoproxy proxy-target-class="true"/>
 
-
     <!--设置静态资源不过滤-->
     <!--    <mvc:resources location = "/css/" mapping= "/css/**"/>-->
     <!--    <mvc:resources location = "/images/" mapping= "/img/**"/>-->

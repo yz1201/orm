@@ -11,7 +11,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
  * @datetime 2020-03-11 12:44
  **/
 @RunWith(SpringJUnit4ClassRunner.class)
-@ContextConfiguration(locations = "classpath:spring/applicationContext-dao.xml")
+@ContextConfiguration(locations = "classpath:applicationContext-dao.xml")
 public class IUserDaoTest {
 
     @Autowired
